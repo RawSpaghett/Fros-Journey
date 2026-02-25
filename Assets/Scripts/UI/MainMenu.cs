@@ -15,6 +15,7 @@ public class MainMenu : MonoBehaviour
         StartCoroutine(PreLoad(gameSceneIndex));
     }
 
+    //============================== COROUTINES ========================================================
     IEnumerator PreLoad(int SceneIndex) //load the game before the player does anything, because its a vertical slice this wont impact performance
     {
         SceneManager.LoadScene(SceneIndex); //gives the percent of how finished it is
@@ -28,16 +29,17 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Preload Complete"); 
     }
 
-    IEnumerator MainFadeOut()
+    IEnumerator MainFadeOut() //starts game specifically for the main menu
     {
-        ScreenFX.FadeOut(this,fadeUI,fadeDuration);
+        ScreenFX.FadeOut(this,fadeUI,fadeDuration); 
         yield return new WaitForSeconds(fadeDuration);
         load.allowSceneActivation = true;
     }
 
-   public void StartGame() //allows the load sequence to finish
+    //============================== BUTTONS ========================================================
+   public void StartGame() 
    {
-    StartCoroutine(MainFadeOut());//make a coroutine for this
+    StartCoroutine(MainFadeOut());
    }
 
     public void Settings() //problem for later

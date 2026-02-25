@@ -4,17 +4,18 @@ using UnityEngine.UI;
 
 public static class ScreenFX 
 {
-   public static void FadeOut()
+
+   public static void FadeOut(MonoBehaviour host,CanvasGroup fadeCanvas, float duration)
    {
-      host.StartCoroutine(FadeIn(fadeCanvas,1,0,duration));
+      host.StartCoroutine(Fade(fadeCanvas,1,0,duration));
    }
 
    public static void FadeIn(MonoBehaviour host,CanvasGroup fadeCanvas, float duration) //uses monobehaviour to determine whats using it because its a static script
    {
-      host.StartCoroutine(FadeIn(fadeCanvas,0,1,duration));
+      host.StartCoroutine(Fade(fadeCanvas,0,1,duration));
    }
 
-   private IEnumerator Fade(CanvasGroup fadeCanvas, float start , float end, float duration) //handles both in and out fading
+   private static IEnumerator Fade(CanvasGroup fadeCanvas, float start , float end, float duration) //handles both in and out fading
    {
       float elapsed = 0;
 
