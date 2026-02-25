@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: FrosJourney
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.SceneTemplate.SceneTemplateAsset
+  templateScene: {fileID: 102900000, guid: 086d22313dbc8b5479a2249893866ca2, type: 3}
+  templateName: 
+  description: 
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 2800000, guid: 3847fe64bbfe47949bf909183daaf752, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 6741657588442166325, guid: f7ac572ef2bb9324fae7db01ee54f7d9, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 3028dc075ba8c584d9bc7d1e0255e038, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 5841922912183720109, guid: 67f6c1af6333b954495e64fa29e0993b, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 6200000, guid: 636c11ac132afc54cb332b51c7288e6c, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 2b44db11a87126a4daf2d3289bde2931, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 3093653728140008332, guid: da4f8fe24e541b64c8a38fb29963445e, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+    instantiationMode: 1
+  templatePipeline: {fileID: 0}
+  badge: {fileID: 0}
+  addToDefaults: 0
