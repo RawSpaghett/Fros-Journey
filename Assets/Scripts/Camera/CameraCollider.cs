@@ -3,15 +3,18 @@ using UnityEngine;
 public class CameraCollider : MonoBehaviour
 {
     private Camera WorldCam;
-    public Vector3 TargetPosition;
+    public Vector2 TargetPosition;
 
     void Start()
     {
-       //grab camera
+      WorldCam = Camera.main; //grab the world cam as soon as this script is started
     }
 
-   void OnCollisionEnter2D(Collision2D collider)
+   void OnTriggerEnter2D(Collision2D collider)
    {
-      //move camera 
+      if(other.CompareTag("Player")) //make sure its the player colliding, Even if there are no enemies or anything
+      {
+         WorldCam.transform.position = TargetPosition;
+      }
    }
 }
