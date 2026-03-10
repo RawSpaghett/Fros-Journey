@@ -677,11 +677,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42450f540e36640428607f87e8f02510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  speed: 2
+  speed: 10
   baseGravity: -9
-  jumpMultiplier: 5
-  minJumpStrength: 3
-  maxJumpStrength: 3
+  jumpMultiplier: 10
+  gravityMultiplier: -9
+  minJumpStrength: 0
+  maxJumpStrength: 100
+  chargeTime: 5
   characterController: {fileID: 0}
   tongueController: {fileID: 0}
 --- !u!1001 &139526170026474814
