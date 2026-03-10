@@ -16,8 +16,11 @@ public class PlayerController : MonoBehaviour
     private float currentGravity;
     private Vector3 velocity;
     public float jumpMultiplier;
+    public float gravityMultiplier;
     public float minJumpStrength;
     public float maxJumpStrength;
+    private float currentCharge;
+    public float chargeTime;
 
     public CharacterController characterController;
     public MonoBehaviour tongueController;
@@ -33,7 +36,7 @@ public class PlayerController : MonoBehaviour
     {
         IsGrounded();
         Movement(); //inputs handled by GetAxis
-        Gravity(jumpMultiplier);
+        Gravity(gravityMultiplier);
 
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space))// Jump keys
         {
@@ -47,6 +50,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape)) // Menu
         {}
+
         characterController.Move(speed * velocity * Time.deltaTime);
     }
     //================================================================
@@ -67,7 +71,26 @@ public class PlayerController : MonoBehaviour
     }
     //================================================================
     private void Jumping() //chargeable, Charge icon? ( Zelda )
-    {}
+    {
+        float t = Mathf.Clamp01(currentCharge / chargeTime); //keeps it between 0 and 1 to prevent overcharge, t is the percent between the lerp
+
+        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W)) //if held down
+        {
+            jumpMultiplier= Mathf.Lerp(minJumpStrength,maxJumpStrength,t); // jumpMultiplier becomes equal to the length of the time it was held down 
+        }
+
+        else if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.W)) //when its let go
+        {
+            //jump logic
+
+            //reset variables
+            currentCharge = 0f;
+            jumpMultiplier = minJumpStrength;
+
+        }
+
+        //jump at the end
+    }
 
     //================================================================
     private void Gravity(float gravityMultiplier) //seperate, to handle swimming later and speedfall
