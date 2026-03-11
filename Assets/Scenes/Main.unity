@@ -177,7 +177,7 @@ Transform:
   m_GameObject: {fileID: 1587501761}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.35, y: -5.2581, z: 0}
+  m_LocalPosition: {x: 10.14, y: -5.2581, z: 0}
   m_LocalScale: {x: 18.2016, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -589,7 +589,7 @@ CharacterController:
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
+  m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0.1, z: 0}
 --- !u!212 &2049562822
 SpriteRenderer:
@@ -659,7 +659,7 @@ Transform:
   m_GameObject: {fileID: 2049562820}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.32, y: 2.15, z: 0}
+  m_LocalPosition: {x: -7.32, y: -0.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -678,14 +678,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   speed: 10
+  timeToMax: 10
+  friction: 0
   baseGravity: -9
-  jumpMultiplier: 10
-  gravityMultiplier: -9
-  minJumpStrength: 0
-  maxJumpStrength: 100
-  chargeTime: 5
-  characterController: {fileID: 0}
-  tongueController: {fileID: 0}
+  gravityMultiplier: 1
+  jumpMultiplier: 0
+  minJumpStrength: 3
+  maxJumpStrength: 10
+  chargeTime: 2
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!1001 &139526170026474814
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -704,7 +705,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6817389441777342707, guid: 1daea10fab041471a811c3dfe625a451, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.13
+      value: 0.22
       objectReference: {fileID: 0}
     - target: {fileID: 6817389441777342707, guid: 1daea10fab041471a811c3dfe625a451, type: 3}
       propertyPath: m_LocalPosition.y

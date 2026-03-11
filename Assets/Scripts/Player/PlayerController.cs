@@ -12,18 +12,25 @@ public class PlayerController : MonoBehaviour
 
     [Header("Movement Statistics")]
     public float speed;
+    public float timeToMax; //acceleration
+    public float friction; //friction
+
     public float baseGravity;
-    private float currentGravity;
-    private Vector3 velocity;
+    public float gravityMultiplier; //change for underwater
+
     public float jumpMultiplier;
-    public float gravityMultiplier;
     public float minJumpStrength;
     public float maxJumpStrength;
-    private float currentCharge;
     public float chargeTime;
 
-    public CharacterController characterController;
-    public MonoBehaviour tongueController;
+    private float currentCharge;
+    private float currentGravity;
+
+    [SerializeField] 
+    private Vector3 velocity;
+
+    CharacterController characterController;
+    MonoBehaviour tongueController;
     
     //================================================================
     void Awake() //grab neccessary GetComponents automatically
@@ -53,15 +60,32 @@ public class PlayerController : MonoBehaviour
 
         characterController.Move(velocity * Time.deltaTime);
     }
+
     //================================================================
+
     private void Movement()
     {
         float x = Input.GetAxisRaw("Horizontal"); //listens for A and D (or arrow keys)
-        velocity.x = x * speed;
+        if(characterController.isGrounded)
+        {
+            if(x != 0)
+            {
+                velocity.x = (Mathf.Lerp(velocity.x,(speed * x),(timeToMax * Time.deltaTime))); //on the ground 
+            }
+            if(x == 0) //if input is equal to zero
+            {
+                velocity.x = (Mathf.Lerp(velocity.x,0f,(friction * Time.deltaTime)));
+            }
+        }
+        else
+        {
+            velocity.x = Mathf.Lerp(velocity.x,(x * speed),(Time.deltaTime * 0.25f)); //air strafing
+        }
         velocity.z = 0f;
-        
     }
+
     //================================================================
+
     private void IsGrounded()
     {
         if(characterController.isGrounded && velocity.y < 0)
@@ -69,7 +93,9 @@ public class PlayerController : MonoBehaviour
             velocity.y = -2;
         }
     }
+
     //================================================================
+
     private void Jumping() //chargeable, Charge icon? ( Zelda )
     {
 
@@ -94,6 +120,7 @@ public class PlayerController : MonoBehaviour
     }
 
     //================================================================
+
     private void Gravity(float gravityMultiplier) //seperate, to handle swimming later and speedfall
     {
         if(Input.GetKey(KeyCode.S) && !characterController.isGrounded) //if speedfalling
@@ -107,7 +134,6 @@ public class PlayerController : MonoBehaviour
         }
 
         velocity.y += currentGravity * Time.deltaTime; //calculate vertical velocity
-
     }
     //================================================================
     private void Tongue()
