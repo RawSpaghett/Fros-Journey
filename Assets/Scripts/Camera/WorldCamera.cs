@@ -5,10 +5,16 @@ using UnityEngine;
 public class WorldCamera : MonoBehaviour
 {
     public Vector3 CurrentPosition; //define where it needs to go, need to add offset
-    
+    //public GameObject startStage;
+    //public Vector3 startPosition = new Vector3(0f,0f,-10f);
     
     void Start()
     {
+        /*
+        startPosition.x = startStage.transform.position.x;
+        startPosition.y = startStage.transform.position.y;
+        transform.position = startPosition;
+        */
         CurrentPosition = transform.position; //set it to current position
     }
 

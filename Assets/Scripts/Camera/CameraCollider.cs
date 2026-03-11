@@ -8,9 +8,10 @@ public class CameraCollider : MonoBehaviour
     public GameObject nextStage;
     public bool automatic;
 
+
     void Start()
     {
-      WorldCam = Camera.main; //grab the world cam as soon as this script is started
+     WorldCam = Camera.main;
     }
 
    void OnTriggerEnter(Collider collider)
@@ -20,13 +21,13 @@ public class CameraCollider : MonoBehaviour
          Vector3 newPosition = WorldCam.transform.position; //used to keep z value
          if(!automatic)
          {
-         newPosition.x = TargetPosition.x;
-         newPosition.y = TargetPosition.y;
+            newPosition.x = TargetPosition.x;
+            newPosition.y = TargetPosition.y;
          }
          else
          {
-          newPosition.x = nextStage.transform.position.x;
-          newPosition.y = nextStage.transform.position.y + 5f;
+            newPosition.x = nextStage.transform.position.x;
+            newPosition.y = nextStage.transform.position.y + 5f;
          }
          WorldCam.transform.position = newPosition;
       }

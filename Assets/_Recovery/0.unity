@@ -613,7 +613,6 @@ GameObject:
   - component: {fileID: 1802950141}
   - component: {fileID: 1802950140}
   - component: {fileID: 1802950143}
-  - component: {fileID: 1802950144}
   m_Layer: 0
   m_Name: WorldCam
   m_TagString: MainCamera
@@ -689,7 +688,7 @@ Transform:
   m_GameObject: {fileID: 1802950139}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.74, y: 1.35, z: -10}
+  m_LocalPosition: {x: -0.19, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -739,19 +738,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!114 &1802950144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1802950139}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2d98ea4b7d5748e2b879e613e3b9dd1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WorldCamera
-  CurrentPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1809753012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1106,10 +1092,6 @@ PrefabInstance:
       propertyPath: nextStage
       value: 
       objectReference: {fileID: 1587501761}
-    - target: {fileID: 7706184070338258104, guid: 1daea10fab041471a811c3dfe625a451, type: 3}
-      propertyPath: startStage
-      value: 
-      objectReference: {fileID: 1946447973}
     - target: {fileID: 7706184070338258104, guid: 1daea10fab041471a811c3dfe625a451, type: 3}
       propertyPath: TargetPosition.x
       value: 10.35
