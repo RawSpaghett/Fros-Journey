@@ -15,7 +15,12 @@ public class TongueController : MonoBehaviour
     
     void Start()
     {
-        //grab neccessary GetComponents
+        //grab neccessary components
+        grapplePoint = GetComponent<>();
+        grappleVisual = GetComponent<>();
+        charController = GetComponent<>();
+
+        isGrappling = false;//set to false
     }
 
     void update()
@@ -25,18 +30,20 @@ public class TongueController : MonoBehaviour
     
     public void GrappleStart()
     {
-        /*
-        isGrappling
-        GrappleCheck();
-        Grapple logic
-        GrappleEnd();
-        */
+        if(GrappleCheck()) //if returns true
+        {
+            //pull player to target position and lock their position to the wall for a short amount of time where they can either fall or jump
+        }
+        else //if returns false
+        {
+            GrappleFail();
+        }
     }
 
     private bool GrappleCheck()
     {
-        /*
         isGrappling = true;
+        /*
         Draw line to mouse pointer location
         Determine if target location is grappleable
         return true if it is a grappleable surface
@@ -47,9 +54,14 @@ public class TongueController : MonoBehaviour
 
     private void GrappleEnd()
     {
+        isGrappling = false; //mark not grappling
+        GrappleFail(); // logic is about the same
+    }
+
+    private void GrappleFail()
+    {
         /*
-        end the Grapple
-        isGrappling = false;
+        retracts line without moving the character controller
         */
     }
 
@@ -57,8 +69,5 @@ public class TongueController : MonoBehaviour
     {
         //update the visuals
     }
-
-
-
 
 }
