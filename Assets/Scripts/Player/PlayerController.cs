@@ -10,14 +10,16 @@ public class PlayerController : MonoBehaviour
         - Coyote Time
     */
 
-    [Header("Movement Statistics")]
+    [Header("Ground Movement")]
     public float speed;
     public float timeToMax; //acceleration
     public float friction; //friction
 
+    [Header("Gravity")]
     public float baseGravity;
     public float gravityMultiplier; //change for underwater
 
+    [Header("Jumping")]
     public float jumpMultiplier;
     public float minJumpStrength;
     public float maxJumpStrength;
@@ -26,6 +28,7 @@ public class PlayerController : MonoBehaviour
     private float currentCharge;
     private float currentGravity;
 
+    [Header("Current Velocity (For Debug)")]
     [SerializeField] 
     private Vector3 velocity;
 
