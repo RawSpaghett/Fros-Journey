@@ -1,0 +1,92 @@
+using UnityEngine;
+using System.Collections;
+
+
+/*
+    https://docs.unity3d.com/462/Documentation/Manual/class-CharacterController.html
+*/
+
+public partial class PlayerController : MonoBehaviour
+{
+    [Header("Neccesary Components")]
+    public Transform grapplePoint;
+    public SpriteRenderer grappleVisual;
+    public CharacterController charController;
+
+    
+    private Vector3 GrappleTarget;
+    private bool retract;
+    
+    void Start()
+    {
+        /*grab neccessary components
+        grapplePoint = GetComponent<>();
+        grappleVisual = GetComponent<>();
+        charController = GetComponent<>();
+        */
+
+        retract = false;//set to false
+    }
+
+    
+    public void GrappleStart()
+    {
+        if(GrappleCheck()) //if returns true
+        {
+            /*
+            pull player to target position and lock their position to the wall for a short amount of time where they can either fall or jump
+            */
+        }
+        else //if returns false
+        {
+            GrappleFail();
+        }
+    }
+
+    private bool GrappleCheck()
+    {
+        retract = false;
+        /*
+            Stretch sprite
+            Detect target GameObject and determine if its grappleable
+        */
+        return false;
+    }
+
+    private void GrappleEnd()
+    {
+        retract = false; 
+        WallStick(); //stick player to the wall
+    }
+
+    private void GrappleFail()
+    {
+        retract = true;
+    }
+
+    public void WallStick()
+    {
+        //Freeze player position until either a timer expires, they fall, or they jump
+    }
+
+
+    /*
+    private IEnumerator SpriteCreate() //gradually extends tongue so its not instant and waits to extend before anything else happens
+    {}
+    */
+
+    private void SpriteRetraction() //Handles sprite retraction on grapple pull or grapple fail
+    {
+        if( retract == true )
+        {
+            //pull in tongue using Lerp between grapplepoint and tonguelocation
+            return;
+        }
+        else
+        {
+            return;
+        }
+       
+    }
+
+}

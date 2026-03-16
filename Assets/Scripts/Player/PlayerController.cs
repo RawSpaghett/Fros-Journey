@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public partial class PlayerController : MonoBehaviour
 {
     //using Character Controller, Faked physics for more control
     //https://docs.unity3d.com/6000.3/Documentation/ScriptReference/CharacterController.html
@@ -33,13 +33,13 @@ public class PlayerController : MonoBehaviour
     private Vector3 velocity;
 
     CharacterController characterController;
-    MonoBehaviour tongueController;
+
     
     //================================================================
     void Awake() //grab neccessary GetComponents automatically
     {
         characterController = GetComponent<CharacterController>(); // grab the controller 
-        tongueController = GetComponent<TongueController>(); // Grab the tongue script
+        retract = false;//set to false
     }
 
     void Update() //will take inputs using old unity input system, https://docs.unity3d.com/560/Documentation/ScriptReference/KeyCode.html
@@ -62,6 +62,8 @@ public class PlayerController : MonoBehaviour
         {}
 
         characterController.Move(velocity * Time.deltaTime);
+
+        // SpriteRetraction();
     }
 
     //================================================================
@@ -140,6 +142,8 @@ public class PlayerController : MonoBehaviour
     }
     //================================================================
     private void Tongue()
-    {}
+    {
+        GrappleStart();
+    }
 
 }
