@@ -1125,6 +1125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42450f540e36640428607f87e8f02510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  characterController: {fileID: 2049562821}
   speed: 10
   timeToMax: 10
   friction: 15
@@ -1135,6 +1136,12 @@ MonoBehaviour:
   maxJumpStrength: 10
   chargeTime: 2
   velocity: {x: 0, y: 0, z: 0}
+  cursorTongueTexture: {fileID: -6090568113533005507, guid: 6c04f6a773d0241ebb5aeed280840024, type: 3}
+  cursorIdleTexture: {fileID: 8300712400058098730, guid: 6c04f6a773d0241ebb5aeed280840024, type: 3}
+  cursorMode: 0
+  hotSpot: {x: 0, y: 0}
+  grapplePoint: {fileID: 1861548816}
+  grappleVisual: {fileID: 1861548817}
 --- !u!114 &2049562825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1147,9 +1154,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62a91bbc2339c4d228230962e1478a66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TongueController
-  grapplePoint: {fileID: 1861548816}
-  grappleVisual: {fileID: 1861548817}
-  charController: {fileID: 2049562821}
 --- !u!1001 &139526170026474814
 PrefabInstance:
   m_ObjectHideFlags: 0

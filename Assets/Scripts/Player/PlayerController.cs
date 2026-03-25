@@ -10,6 +10,8 @@ public partial class PlayerController : MonoBehaviour
         - Coyote Time
     */
 
+    public CharacterController characterController;
+
     [Header("Ground Movement")]
     public float speed;
     public float timeToMax; //acceleration
@@ -25,6 +27,7 @@ public partial class PlayerController : MonoBehaviour
     public float maxJumpStrength;
     public float chargeTime;
 
+    private bool tongueing;
     private float currentCharge;
     private float currentGravity;
 
@@ -32,31 +35,26 @@ public partial class PlayerController : MonoBehaviour
     [SerializeField] 
     private Vector3 velocity;
 
-    CharacterController characterController;
 
-    
     //================================================================
     void Awake() //grab neccessary GetComponents automatically
     {
-        characterController = GetComponent<CharacterController>(); // grab the controller 
         retract = false;//set to false
     }
 
     void Update() //will take inputs using old unity input system, https://docs.unity3d.com/560/Documentation/ScriptReference/KeyCode.html
     {
         IsGrounded();
+
         Movement(); //inputs handled by GetAxis
         Gravity(gravityMultiplier);
 
         if (characterController.isGrounded)
         {
             Jumping();
-        }
-       
-        if (Input.GetKeyDown(KeyCode.Mouse0)) // tongue
-        {
             Tongue();
         }
+       
 
         if (Input.GetKeyDown(KeyCode.Escape)) // Menu
         {}
@@ -70,6 +68,8 @@ public partial class PlayerController : MonoBehaviour
 
     private void Movement()
     {
+        if(!tongueing) //false
+        {
         float x = Input.GetAxisRaw("Horizontal"); //listens for A and D (or arrow keys)
         if(characterController.isGrounded)
         {
@@ -87,6 +87,7 @@ public partial class PlayerController : MonoBehaviour
             velocity.x = Mathf.Lerp(velocity.x,(x * speed),(Time.deltaTime * 0.25f)); //air strafing
         }
         velocity.z = 0f;
+        }
     }
 
     //================================================================
@@ -110,7 +111,7 @@ public partial class PlayerController : MonoBehaviour
             float t = Mathf.Clamp01(currentCharge / chargeTime);//keeps it between 0 and 1 to prevent overcharge, t is the percent between the lerp
             jumpMultiplier= Mathf.Lerp(minJumpStrength,maxJumpStrength,t); // jumpMultiplier becomes equal to the length of the time it was held down 
         }
-
+        
         else if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.W)) //when its let go
         {
             
@@ -143,7 +144,17 @@ public partial class PlayerController : MonoBehaviour
     //================================================================
     private void Tongue()
     {
-        GrappleStart();
+        if (Input.GetKey(KeyCode.Mouse0) && characterController.isGrounded ) // held down
+        {
+            tongueing = true;
+            TongueCursor(true);
+            velocity.x = 0;
+        }
+        if(Input.GetKeyUp(KeyCode.Mouse0)) // let go
+        {
+            tongueing = false;
+            TongueCursor(false); //off
+        }
     }
 
 }

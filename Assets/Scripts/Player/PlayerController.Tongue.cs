@@ -8,10 +8,9 @@ using System.Collections;
 
 public partial class PlayerController : MonoBehaviour
 {
-    [Header("Neccesary Components")]
+    [Header("Neccesary Tongue Components")]
     public Transform grapplePoint;
     public SpriteRenderer grappleVisual;
-    public CharacterController charController;
 
     
     private Vector3 GrappleTarget;
@@ -19,16 +18,10 @@ public partial class PlayerController : MonoBehaviour
     
     void Start()
     {
-        /*grab neccessary components
-        grapplePoint = GetComponent<>();
-        grappleVisual = GetComponent<>();
-        charController = GetComponent<>();
-        */
-
         retract = false;//set to false
+        Cursor.SetCursor(cursorIdleTexture, hotSpot, cursorMode);
     }
 
-    
     public void GrappleStart()
     {
         if(GrappleCheck()) //if returns true
@@ -49,6 +42,7 @@ public partial class PlayerController : MonoBehaviour
         /*
             Stretch sprite
             Detect target GameObject and determine if its grappleable
+            return true;
         */
         return false;
     }
@@ -62,6 +56,13 @@ public partial class PlayerController : MonoBehaviour
     private void GrappleFail()
     {
         retract = true;
+    }
+
+    private void GrappleSucceed()
+    {
+        retract = true;
+        //Move player towards the point in tandem with the tongue retraction
+        //reverse tongue retraction to be mouth -> end instead of mouth <- end
     }
 
     public void WallStick()
