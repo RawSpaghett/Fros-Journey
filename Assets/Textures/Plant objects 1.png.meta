@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 2be17d90446c949c7bf3aa3ee65954b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6611702731648771301
+    second: Plant objects 1_0
+  - first:
+      213: 4457737380543326883
+    second: Plant objects 1_1
+  - first:
+      213: 5162783092920595286
+    second: Plant objects 1_2
+  - first:
+      213: -7977395907926030635
+    second: Plant objects 1_3
+  - first:
+      213: -6955118235915557797
+    second: Plant objects 1_4
+  - first:
+      213: -6172529299117059186
+    second: Plant objects 1_5
+  - first:
+      213: 3607047608183104543
+    second: Plant objects 1_6
+  - first:
+      213: -4228216542659268967
+    second: Plant objects 1_7
+  - first:
+      213: 6151917918734045988
+    second: Plant objects 1_8
+  - first:
+      213: 8240878127357009931
+    second: Plant objects 1_9
+  - first:
+      213: 8748737832829879643
+    second: Plant objects 1_10
+  - first:
+      213: 7851083940537096428
+    second: Plant objects 1_11
+  - first:
+      213: 504552896866011529
+    second: Plant objects 1_12
+  - first:
+      213: 4017769068763993782
+    second: Plant objects 1_13
+  - first:
+      213: 848103933897040824
+    second: Plant objects 1_14
+  - first:
+      213: -5074990324901434469
+    second: Plant objects 1_15
+  - first:
+      213: 6782689204562461752
+    second: Plant objects 1_16
+  - first:
+      213: -6649264774800840425
+    second: Plant objects 1_17
+  - first:
+      213: -331601030168279070
+    second: Plant objects 1_18
+  - first:
+      213: -5714543832825407248
+    second: Plant objects 1_19
+  - first:
+      213: 1897349660576046564
+    second: Plant objects 1_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plant objects 1_0
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1119
+        width: 145
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b589755638e34a0800000000000000
+      internalID: -6611702731648771301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 983
+        width: 145
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aae34d87801ddd30800000000000000
+      internalID: 4457737380543326883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_2
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 983
+        width: 145
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653bce19ed3e5a740800000000000000
+      internalID: 5162783092920595286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_3
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1121
+        width: 28
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d60a6310b89a4190800000000000000
+      internalID: -7977395907926030635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_4
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1119
+        width: 198
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54696170d47a7f90800000000000000
+      internalID: -6955118235915557797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_5
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 963
+        width: 145
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83df605e45c65aa0800000000000000
+      internalID: -6172529299117059186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_6
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 996
+        width: 199
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f142dad40bece0230800000000000000
+      internalID: 3607047608183104543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_7
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 771
+        width: 94
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e2d5dd47b5255c0800000000000000
+      internalID: -4228216542659268967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 708
+        width: 145
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423d089b0c0006550800000000000000
+      internalID: 6151917918734045988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_9
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 706
+        width: 145
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 42, y: 70, z: 42, w: 61}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00a66aaefa7d5270800000000000000
+      internalID: 8240878127357009931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_10
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 754
+        width: 8
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5588d6c4b2c96970800000000000000
+      internalID: 8748737832829879643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_11
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 754
+        width: 8
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8dc714f37a4fc60800000000000000
+      internalID: 7851083940537096428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_12
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 565
+        width: 93
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989c71cbf28800700800000000000000
+      internalID: 504552896866011529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_13
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 671
+        width: 14
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6da355eabf1c730800000000000000
+      internalID: 4017769068763993782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 351
+        width: 124
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b36b80d80215cb00800000000000000
+      internalID: 848103933897040824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_15
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 423
+        width: 145
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ba4bd10330299b0800000000000000
+      internalID: -5074990324901434469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_16
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 423
+        width: 145
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83482d335e3f02e50800000000000000
+      internalID: 6782689204562461752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_17
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 52
+        width: 108
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7196a78aae019b3a0800000000000000
+      internalID: -6649264774800840425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_18
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 42
+        width: 109
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e78aa5be9ae56bf0800000000000000
+      internalID: -331601030168279070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_19
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 216
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8da0739acd1b0b0800000000000000
+      internalID: -5714543832825407248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant objects 1_20
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 216
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4edd755b67db45a10800000000000000
+      internalID: 1897349660576046564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e94fb63f5a3a44447bde5372448a87f8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plant objects 1_0: -6611702731648771301
+      Plant objects 1_1: 4457737380543326883
+      Plant objects 1_10: 8748737832829879643
+      Plant objects 1_11: 7851083940537096428
+      Plant objects 1_12: 504552896866011529
+      Plant objects 1_13: 4017769068763993782
+      Plant objects 1_14: 848103933897040824
+      Plant objects 1_15: -5074990324901434469
+      Plant objects 1_16: 6782689204562461752
+      Plant objects 1_17: -6649264774800840425
+      Plant objects 1_18: -331601030168279070
+      Plant objects 1_19: -5714543832825407248
+      Plant objects 1_2: 5162783092920595286
+      Plant objects 1_20: 1897349660576046564
+      Plant objects 1_3: -7977395907926030635
+      Plant objects 1_4: -6955118235915557797
+      Plant objects 1_5: -6172529299117059186
+      Plant objects 1_6: 3607047608183104543
+      Plant objects 1_7: -4228216542659268967
+      Plant objects 1_8: 6151917918734045988
+      Plant objects 1_9: 8240878127357009931
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
