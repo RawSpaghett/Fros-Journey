@@ -39,7 +39,6 @@ public partial class PlayerController : MonoBehaviour
     //================================================================
     void Awake() //grab neccessary GetComponents automatically
     {
-        retract = false;//set to false
     }
 
     void Update() //will take inputs using old unity input system, https://docs.unity3d.com/560/Documentation/ScriptReference/KeyCode.html

@@ -12,13 +12,17 @@ public partial class PlayerController : MonoBehaviour
     public Transform grapplePoint;
     public SpriteRenderer grappleVisual;
 
+    [Header("Raycast settings")]
+    public LayerMask grapplemask;
+
+
     
-    private Vector3 GrappleTarget;
-    private bool retract;
+    private Vector3 grappleTarget;
+    private Vector3 mousePosition;
+
     
     void Start()
     {
-        retract = false;//set to false
         Cursor.SetCursor(cursorIdleTexture, hotSpot, cursorMode);
     }
 
@@ -38,29 +42,30 @@ public partial class PlayerController : MonoBehaviour
 
     private bool GrappleCheck()
     {
-        retract = false;
-        /*
-            Stretch sprite
-            Detect target GameObject and determine if its grappleable
-            return true;
-        */
+        Plane zPlane = new Plane(Vector3.forward,Vector3.zero); //(flat against x and y, true origin)
+        Ray cameraRay = Camera.main.ScreenPointToRay(Input.mousePosition); //draw a raycast to the mouse position from the screen to our plane
+        float location;
+        
+        if (zPlane.Raycast(cameraRay,  out location)) //determines if and where its been hit by the camera raycast
+        {
+            Vector3 mouseGamePosition = cameraRay.GetPoint(location);//gets the position of the raycast in the game space
+
+        }
         return false;
     }
 
     private void GrappleEnd()
     {
-        retract = false; 
         WallStick(); //stick player to the wall
     }
 
     private void GrappleFail()
     {
-        retract = true;
+       
     }
 
     private void GrappleSucceed()
     {
-        retract = true;
         //Move player towards the point in tandem with the tongue retraction
         //reverse tongue retraction to be mouth -> end instead of mouth <- end
     }
@@ -73,21 +78,15 @@ public partial class PlayerController : MonoBehaviour
 
     /*
     private IEnumerator SpriteCreate() //gradually extends tongue so its not instant and waits to extend before anything else happens
-    {}
+    {
+
+    }
     */
+    
 
     private void SpriteRetraction() //Handles sprite retraction on grapple pull or grapple fail
     {
-        if( retract == true )
-        {
-            //pull in tongue using Lerp between grapplepoint and tonguelocation
-            return;
-        }
-        else
-        {
-            return;
-        }
-       
+
     }
 
 }
