@@ -211,9 +211,9 @@ GameObject:
   - component: {fileID: 639092512}
   - component: {fileID: 639092514}
   - component: {fileID: 639092513}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Square (2)
-  m_TagString: Untagged
+  m_TagString: Grappleable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -355,9 +355,9 @@ GameObject:
   - component: {fileID: 1277421113}
   - component: {fileID: 1277421115}
   - component: {fileID: 1277421114}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Square (3)
-  m_TagString: Untagged
+  m_TagString: Grappleable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -870,11 +870,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -7666856445780967580, guid: ecd71334fe8da4f89b426b3b4c93c867, type: 3}
   m_Color: {r: 0.48221448, g: 1, b: 0.4198113, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
+  m_DrawMode: 2
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
@@ -1005,7 +1005,6 @@ GameObject:
   - component: {fileID: 2049562822}
   - component: {fileID: 2049562821}
   - component: {fileID: 2049562824}
-  - component: {fileID: 2049562825}
   m_Layer: 0
   m_Name: Fro
   m_TagString: Player
@@ -1107,7 +1106,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.32, y: -0.63, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1861548816}
@@ -1142,18 +1141,11 @@ MonoBehaviour:
   hotSpot: {x: 0, y: 0}
   grapplePoint: {fileID: 1861548816}
   grappleVisual: {fileID: 1861548817}
---- !u!114 &2049562825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2049562820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62a91bbc2339c4d228230962e1478a66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TongueController
+  maxDistance: 10
+  pullSpeed: 2
+  grapplemask:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1001 &139526170026474814
 PrefabInstance:
   m_ObjectHideFlags: 0

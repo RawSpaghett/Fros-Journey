@@ -27,7 +27,6 @@ public partial class PlayerController : MonoBehaviour
     public float maxJumpStrength;
     public float chargeTime;
 
-    private bool tongueing;
     private float currentCharge;
     private float currentGravity;
 
@@ -60,14 +59,14 @@ public partial class PlayerController : MonoBehaviour
 
         characterController.Move(velocity * Time.deltaTime);
 
-        // SpriteRetraction();
+
     }
 
     //================================================================
 
     private void Movement()
     {
-        if(!tongueing) //false
+        if(!isGrappling) //false
         {
         float x = Input.GetAxisRaw("Horizontal"); //listens for A and D (or arrow keys)
         if(characterController.isGrounded)
@@ -145,13 +144,12 @@ public partial class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Mouse0) && characterController.isGrounded ) // held down
         {
-            tongueing = true;
             TongueCursor(true);
             velocity.x = 0;
         }
         if(Input.GetKeyUp(KeyCode.Mouse0)) // let go
         {
-            tongueing = false;
+            GrappleStart();
             TongueCursor(false); //off
         }
     }
