@@ -95,7 +95,7 @@ public partial class PlayerController : MonoBehaviour
     private IEnumerator GrappleSucceed()
     {
         Debug.Log("<color=green>GrappleSucceed</color>");
-        while(Vector3.Distance(transform.position,grappleTarget) > 0.5) //while we are not there, 0.5 for buffer
+        while(Vector3.Distance(transform.position,grappleTarget) > 0.7) //while we are not there, 0.5 for buffer
         {
             Vector3 direction = (grappleTarget - transform.position).normalized; //normalized keeps it so our speed never changes
             velocity = direction * pullSpeed; //changes velocity to start grapple
