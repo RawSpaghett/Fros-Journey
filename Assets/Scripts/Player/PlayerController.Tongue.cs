@@ -19,10 +19,11 @@ public partial class PlayerController : MonoBehaviour
     [Header("Raycast settings")]
     public LayerMask grapplemask;
 
-
+    private bool isSticking;
     private bool isGrappling;
     private Vector3 grappleTarget;
     private Vector3 mousePosition;
+    private Coroutine currentStick;
 
     
     void Start()
@@ -36,6 +37,7 @@ public partial class PlayerController : MonoBehaviour
         if(GrappleCheck()) //if returns true
         {
             isGrappling = true;
+
             StartCoroutine(GrappleSucceed());
         }
         else //if returns false
@@ -71,29 +73,12 @@ public partial class PlayerController : MonoBehaviour
     private void GrappleEnd()
     {
         isGrappling = false;
-        //WallStick(); //stick player to the wall
+        WallStick(); 
     }
-
-/* does not work, gemini made
-    void TongueVisual()
-    {
-        Debug.Log("<color=green>TongueVisual</color>");
-        // 1. Calculate the distance between player and target
-        float distance = Vector3.Distance(transform.position, grappleTarget);
-
-        // 2. Point the tongue at the target
-        Vector3 dir = grappleTarget - transform.position;
-        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-        grappleVisual.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-
-        // 3. Stretch the tongue by changing its Size (not Scale!)
-        // This works because we set the Draw Mode to Tiled
-        grappleVisual.size = new Vector2(distance, grappleVisual.size.y);
-    }
-    */
 
     private IEnumerator GrappleSucceed()
     {
+        KillWallStick();
         Debug.Log("<color=green>GrappleSucceed</color>");
         while(Vector3.Distance(transform.position,grappleTarget) > 0.7) //while we are not there, 0.5 for buffer
         {
@@ -107,16 +92,41 @@ public partial class PlayerController : MonoBehaviour
     }
 
 
-    /*
+    
     public void WallStick()
     {
-        //Freeze player position until either a timer expires, they fall, or they jump
+        if(isSticking) return; //if already sticking
+
+        currentStick= StartCoroutine(WallStickTimer()); //start the stick
     }
 
 
     public IEnumerator WallStickTimer()
     {
+        Debug.Log("<color=orange>StickStart</color>");
+        isSticking = true;
 
+        currentGravity = 0f;
+
+        velocity = Vector2.zero;
+
+        yield return new WaitForSeconds(3f);
+
+        Debug.Log("<color=orange>StickEnd</color>");
+        currentGravity = baseGravity;
+        isSticking = false;
     }
-    */
+
+    public void KillWallStick()
+    {
+        if (currentStick != null)
+        {
+            Debug.Log("<color=red>WallStick Killed<color>");
+            StopCoroutine(currentStick);
+            currentStick = null;
+        }
+        isSticking = false;
+        currentGravity = baseGravity;
+    }
+    
 }

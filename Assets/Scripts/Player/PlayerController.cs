@@ -18,17 +18,19 @@ public partial class PlayerController : MonoBehaviour
     public float friction; //friction
 
     [Header("Gravity")]
-    public float baseGravity;
+    public float baseGravity = -9.81f;//earth gravity
     public float gravityMultiplier; //change for underwater
 
     [Header("Jumping")]
     public float jumpMultiplier;
+    public float airControl;
     public float minJumpStrength;
     public float maxJumpStrength;
     public float chargeTime;
 
     private float currentCharge;
     private float currentGravity;
+    private bool isStunned = false;
 
     [Header("Current Velocity (For Debug)")]
     [SerializeField] 
@@ -45,9 +47,13 @@ public partial class PlayerController : MonoBehaviour
         IsGrounded();
 
         Movement(); //inputs handled by GetAxis
-        Gravity(gravityMultiplier);
 
-        if (characterController.isGrounded)
+        if(!isSticking)
+        {
+            Gravity(gravityMultiplier);
+        }
+
+        if (characterController.isGrounded || isSticking)
         {
             Jumping();
             Tongue();
@@ -66,7 +72,7 @@ public partial class PlayerController : MonoBehaviour
 
     private void Movement()
     {
-        if(!isGrappling) //false
+        if(!isGrappling && !isSticking) //false
         {
         float x = Input.GetAxisRaw("Horizontal"); //listens for A and D (or arrow keys)
         if(characterController.isGrounded)
@@ -80,9 +86,9 @@ public partial class PlayerController : MonoBehaviour
                 velocity.x = (Mathf.Lerp(velocity.x,0f,(friction * Time.deltaTime)));
             }
         }
-        else
+        else if (!isStunned)
         {
-            velocity.x = Mathf.Lerp(velocity.x,(x * speed),(Time.deltaTime * 0.25f)); //air strafing
+            velocity.x = Mathf.Lerp(velocity.x,(x * speed),(Time.deltaTime * airControl)); //air strafing
         }
         velocity.z = 0f;
         }
@@ -95,6 +101,15 @@ public partial class PlayerController : MonoBehaviour
         if(characterController.isGrounded && velocity.y < 0)
         {
             velocity.y = -2;
+            isStunned = false;
+        }
+
+        if((characterController.collisionFlags & CollisionFlags.Above) != 0 && !isSticking && !isGrappling) //head hit check
+        {
+            isStunned = true;
+            Debug.Log("<color=blue> Hit Head! <color>");
+            velocity.y = 0;
+            velocity.x = 0;
         }
     }
 
@@ -112,7 +127,7 @@ public partial class PlayerController : MonoBehaviour
         
         else if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.W)) //when its let go
         {
-            
+            KillWallStick();
             velocity.y = jumpMultiplier;
         }
         else
@@ -142,11 +157,14 @@ public partial class PlayerController : MonoBehaviour
     //================================================================
     private void Tongue()
     {
-        if (Input.GetKey(KeyCode.Mouse0) && characterController.isGrounded ) // held down
+
+        if (Input.GetKey(KeyCode.Mouse0) && (characterController.isGrounded || isSticking)) // held down
         {
+            Debug.Log("<color=green>TongueInput</color>");
             TongueCursor(true);
             velocity.x = 0;
         }
+
         if(Input.GetKeyUp(KeyCode.Mouse0)) // let go
         {
             GrappleStart();
