@@ -36,6 +36,8 @@ public partial class PlayerController : MonoBehaviour
     [SerializeField] 
     private Vector3 velocity;
 
+    public EggManager em; //kaitlyn
+
 
     //================================================================
     void Awake() //grab neccessary GetComponents automatically
@@ -169,6 +171,16 @@ public partial class PlayerController : MonoBehaviour
         {
             GrappleStart();
             TongueCursor(false); //off
+        }
+    }
+    //================================================================
+    //kaitlyn
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Egg"))
+        {
+            Destroy(other.gameObject);
+            em.eggCount++;
         }
     }
 
