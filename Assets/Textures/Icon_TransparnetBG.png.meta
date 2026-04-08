@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 19108b657b28b4c598f60087e8dcb580
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -155333118645439398
+    second: Icon_TransparnetBG_0
+  - first:
+      213: -7283194448456027587
+    second: Icon_TransparnetBG_1
+  - first:
+      213: -965667477799490340
+    second: Icon_TransparnetBG_2
+  - first:
+      213: -5950107413513798079
+    second: Icon_TransparnetBG_3
+  - first:
+      213: 375533838951970108
+    second: Icon_TransparnetBG_4
+  - first:
+      213: 5219812063188775526
+    second: Icon_TransparnetBG_5
+  - first:
+      213: 464702231343064845
+    second: Icon_TransparnetBG_6
+  - first:
+      213: 6311213022280910338
+    second: Icon_TransparnetBG_7
+  - first:
+      213: 2611126303377780338
+    second: Icon_TransparnetBG_8
+  - first:
+      213: -2868291666259406329
+    second: Icon_TransparnetBG_9
+  - first:
+      213: -2453281764727896743
+    second: Icon_TransparnetBG_10
+  - first:
+      213: 5285290985010503072
+    second: Icon_TransparnetBG_11
+  - first:
+      213: -80177139799237378
+    second: Icon_TransparnetBG_12
+  - first:
+      213: 6339152511513621195
+    second: Icon_TransparnetBG_13
+  - first:
+      213: -22826263870485143
+    second: Icon_TransparnetBG_14
+  - first:
+      213: 7450623725497620641
+    second: Icon_TransparnetBG_15
+  - first:
+      213: 8370055308594239935
+    second: Icon_TransparnetBG_16
+  - first:
+      213: 3723677740484003938
+    second: Icon_TransparnetBG_17
+  - first:
+      213: 5631483295092893911
+    second: Icon_TransparnetBG_18
+  - first:
+      213: -6365405858641010789
+    second: Icon_TransparnetBG_19
+  - first:
+      213: -8832810133625005945
+    second: Icon_TransparnetBG_20
+  - first:
+      213: 8243747451283458140
+    second: Icon_TransparnetBG_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_0
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1334
+        width: 1206
+        height: 1087
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54f8410a5528ddf0800000000000000
+      internalID: -155333118645439398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_1
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1334
+        width: 1204
+        height: 1087
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d327ea5bc35ecea90800000000000000
+      internalID: -7283194448456027587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_2
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 1805
+        width: 474
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc2d969b824992f0800000000000000
+      internalID: -965667477799490340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_3
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 1800
+        width: 586
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e771a15d8fc6da0800000000000000
+      internalID: -5950107413513798079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_4
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 2253
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35fedf690a263500800000000000000
+      internalID: 375533838951970108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_5
+      rect:
+        serializedVersion: 2
+        x: 4539
+        y: 1781
+        width: 593
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6627aac6a6f707840800000000000000
+      internalID: 5219812063188775526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_6
+      rect:
+        serializedVersion: 2
+        x: 5359
+        y: 1805
+        width: 571
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07e881a734f27600800000000000000
+      internalID: 464702231343064845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_7
+      rect:
+        serializedVersion: 2
+        x: 4356
+        y: 2144
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2068fd63ecee59750800000000000000
+      internalID: 6311213022280910338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_8
+      rect:
+        serializedVersion: 2
+        x: 3817
+        y: 2036
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ee280e9859c3420800000000000000
+      internalID: 2611126303377780338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_9
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 2024
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70215682de7c138d0800000000000000
+      internalID: -2868291666259406329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_10
+      rect:
+        serializedVersion: 2
+        x: 3946
+        y: 1795
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9554377ab3134fdd0800000000000000
+      internalID: -2453281764727896743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_11
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 1781
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad1020f520295940800000000000000
+      internalID: 5285290985010503072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_12
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 162
+        width: 1206
+        height: 1086
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efcd82fe05723eef0800000000000000
+      internalID: -80177139799237378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_13
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 161
+        width: 1204
+        height: 1088
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc27bc97f9139f750800000000000000
+      internalID: 6339152511513621195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_14
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 1087
+        width: 474
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d437a42a7eeaff0800000000000000
+      internalID: -22826263870485143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_15
+      rect:
+        serializedVersion: 2
+        x: 3858
+        y: 1029
+        width: 454
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a81261adcee56760800000000000000
+      internalID: 7450623725497620641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_16
+      rect:
+        serializedVersion: 2
+        x: 4582
+        y: 1057
+        width: 508
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9d12be4f8682470800000000000000
+      internalID: 8370055308594239935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_17
+      rect:
+        serializedVersion: 2
+        x: 5391
+        y: 1056
+        width: 508
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26804931d292da330800000000000000
+      internalID: 3723677740484003938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_18
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 342
+        width: 532
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8ee82583c072e40800000000000000
+      internalID: 5631483295092893911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_19
+      rect:
+        serializedVersion: 2
+        x: 4558
+        y: 352
+        width: 532
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f1380d81989a7a0800000000000000
+      internalID: -6365405858641010789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_20
+      rect:
+        serializedVersion: 2
+        x: 5451
+        y: 362
+        width: 137
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7889fc05bfd8b6580800000000000000
+      internalID: -8832810133625005945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_TransparnetBG_21
+      rect:
+        serializedVersion: 2
+        x: 5702
+        y: 362
+        width: 137
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5848c331aca76270800000000000000
+      internalID: 8243747451283458140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Icon_TransparnetBG_0: -155333118645439398
+      Icon_TransparnetBG_1: -7283194448456027587
+      Icon_TransparnetBG_10: -2453281764727896743
+      Icon_TransparnetBG_11: 5285290985010503072
+      Icon_TransparnetBG_12: -80177139799237378
+      Icon_TransparnetBG_13: 6339152511513621195
+      Icon_TransparnetBG_14: -22826263870485143
+      Icon_TransparnetBG_15: 7450623725497620641
+      Icon_TransparnetBG_16: 8370055308594239935
+      Icon_TransparnetBG_17: 3723677740484003938
+      Icon_TransparnetBG_18: 5631483295092893911
+      Icon_TransparnetBG_19: -6365405858641010789
+      Icon_TransparnetBG_2: -965667477799490340
+      Icon_TransparnetBG_20: -8832810133625005945
+      Icon_TransparnetBG_21: 8243747451283458140
+      Icon_TransparnetBG_3: -5950107413513798079
+      Icon_TransparnetBG_4: 375533838951970108
+      Icon_TransparnetBG_5: 5219812063188775526
+      Icon_TransparnetBG_6: 464702231343064845
+      Icon_TransparnetBG_7: 6311213022280910338
+      Icon_TransparnetBG_8: 2611126303377780338
+      Icon_TransparnetBG_9: -2868291666259406329
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
