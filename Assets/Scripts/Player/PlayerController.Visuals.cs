@@ -9,6 +9,7 @@ public partial class PlayerController : MonoBehaviour
     public CursorMode cursorMode = CursorMode.Auto;
     public Vector2 hotSpot = Vector2.zero;
 
+
     public void TongueCursor(bool active)
     {
         if(active)
@@ -20,6 +21,5 @@ public partial class PlayerController : MonoBehaviour
             Cursor.SetCursor(cursorIdleTexture, hotSpot, cursorMode);
         }
     }
-
 
 }

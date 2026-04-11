@@ -10,7 +10,6 @@ public partial class PlayerController : MonoBehaviour
 {
     [Header("Neccesary Tongue Components")]
     public Transform grapplePoint;
-    public SpriteRenderer grappleVisual;
 
     [Header("Grapple settings")]
     public float maxDistance = 10f;
@@ -19,9 +18,10 @@ public partial class PlayerController : MonoBehaviour
     [Header("Raycast settings")]
     public LayerMask grapplemask;
 
+    
     private bool isSticking;
     private bool isGrappling;
-    private Vector3 grappleTarget;
+    public Vector3 grappleTarget;
     private Vector3 mousePosition;
     private Coroutine currentStick;
 
@@ -52,34 +52,41 @@ public partial class PlayerController : MonoBehaviour
         Plane zPlane = new Plane(Vector3.forward,Vector3.zero); //(flat against x and y, true origin)
         Ray cameraRay = Camera.main.ScreenPointToRay(Input.mousePosition); //draw a raycast to the mouse position from the screen to our plane
         float location;
-        
+        Vector3 missTarget = transform.position;
+
         if (zPlane.Raycast(cameraRay, out location)) //determines if and where its been hit by the camera raycast
         {
             Vector3 mouseGamePosition = cameraRay.GetPoint(location);//gets the position of the raycast in the game space
             Vector3 direction = (mouseGamePosition - transform.position).normalized; //location of mouse minus location of player
-            
+            missTarget = transform.position + (direction * maxDistance);
+
             if (Physics.Raycast(transform.position, direction, out RaycastHit hit, maxDistance, grapplemask))//where it starts,where it points,stores where it hits,maximum distance, the grappleable layers
             {
-            grappleTarget = hit.point; // Store where we hit
-            Debug.Log("<color=green>GrappleCheckTrue</color>");
-            return true;
+                grappleTarget = hit.point; // Store where we hit
+                
+                Debug.Log("<color=green>GrappleCheckTrue</color>");
+                tongueRenderer.TongueIntiateVis(hit.point);
+                return true;
             }
 
         }
         Debug.Log("<color=red>GrappleCheckFalse</color>");
+        tongueRenderer.TongueIntiateVis(missTarget);
         return false;
     }
 
     private void GrappleEnd()
     {
         isGrappling = false;
-        WallStick(); 
+        tongueRenderer.DisableTongueVis();
+        WallStick();
     }
 
     private IEnumerator GrappleSucceed()
     {
         KillWallStick();
         Debug.Log("<color=green>GrappleSucceed</color>");
+        yield return new WaitUntil(() => tongueRenderer.isPulling); //lamba expression
         while(Vector3.Distance(transform.position,grappleTarget) > 0.7) //while we are not there, 0.5 for buffer
         {
             Vector3 direction = (grappleTarget - transform.position).normalized; //normalized keeps it so our speed never changes
@@ -91,8 +98,6 @@ public partial class PlayerController : MonoBehaviour
         GrappleEnd();
     }
 
-
-    
     public void WallStick()
     {
         if(isSticking) return; //if already sticking

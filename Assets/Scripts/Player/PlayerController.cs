@@ -12,6 +12,9 @@ public partial class PlayerController : MonoBehaviour
 
     public CharacterController characterController;
 
+    [Header("References")]
+    public TongueRenderer tongueRenderer;
+
     [Header("Ground Movement")]
     public float speed;
     public float timeToMax; //acceleration
@@ -23,7 +26,7 @@ public partial class PlayerController : MonoBehaviour
 
     [Header("Jumping")]
     public float jumpMultiplier;
-    public float airControl;
+    public float airControl;   
     public float minJumpStrength;
     public float maxJumpStrength;
     public float chargeTime;
@@ -48,7 +51,7 @@ public partial class PlayerController : MonoBehaviour
 
         Movement(); //inputs handled by GetAxis
 
-        if(!isSticking)
+        if(!isSticking && !isGrappling)
         {
             Gravity(gravityMultiplier);
         }
@@ -161,7 +164,7 @@ public partial class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.Mouse0) && (characterController.isGrounded || isSticking)) // held down
         {
             Debug.Log("<color=green>TongueInput</color>");
-            TongueCursor(true);
+            TongueCursor(true);  
             velocity.x = 0;
         }
 
