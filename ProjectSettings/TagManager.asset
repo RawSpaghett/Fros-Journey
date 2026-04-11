@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Grappleable
+  - Egg
   layers:
   - Default
   - TransparentFX
