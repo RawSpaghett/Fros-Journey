@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: ecd71334fe8da4f89b426b3b4c93c867
+guid: f3bcf07ef8fb5407985596a1fba88ebf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7666856445780967580
-    second: Google_0
-  - first:
-      213: 4025438279069038474
-    second: Google_1
-  - first:
-      213: -7132813650660960628
-    second: Google_2
+      213: -2910176658244651224
+    second: Basic_square.svg_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,16 +40,16 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 0
-  alignment: 0
+  alignment: 4
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -81,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Google_0
+      name: Basic_square.svg_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 8
-        width: 884
-        height: 408
+        x: 20
+        y: 20
+        width: 920
+        height: 920
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,52 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46fbf4deeaad99590800000000000000
-      internalID: -7666856445780967580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Google_1
-      rect:
-        serializedVersion: 2
-        x: 901
-        y: 124
-        width: 104
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a877b2189ca3dd730800000000000000
-      internalID: 4025438279069038474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Google_2
-      rect:
-        serializedVersion: 2
-        x: 995
-        y: 118
-        width: 169
-        height: 212
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c86db47a6c7230d90800000000000000
-      internalID: -7132813650660960628
+      spriteID: 827b1b38fb9fc97d0800000000000000
+      internalID: -2910176658244651224
       vertices: []
       indices: 
       edges: []
@@ -175,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6e5d7b3ad11394e1faf0aec3a2f92d05
+    spriteID: a9f11049b0d7644fe8c1740c05358e9b
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Google_0: -7666856445780967580
-      Google_1: 4025438279069038474
-      Google_2: -7132813650660960628
+      Basic_square.svg_0: -2910176658244651224
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

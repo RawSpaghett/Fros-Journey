@@ -3,7 +3,7 @@ using System.Collections;
 
 public class TongueRenderer : MonoBehaviour
 {
-    public LineRenderer renderer;
+    public SpriteRenderer tongueSprite;
     public PlayerController player;
     public float visualTongueSpeed = 10f;
 
@@ -11,10 +11,11 @@ public class TongueRenderer : MonoBehaviour
     private Transform playerTransform;
     private Coroutine tongueExtendCo;
 
+
     void Awake()
     {
-        renderer = GetComponent<LineRenderer>();
-        renderer.positionCount = 0; //inactive, starts blank
+        tongueSprite= GetComponent<SpriteRenderer>();
+        tongueSprite.enabled = false;
     }
 
     public void TongueIntiateVis(Vector3 target)
@@ -27,20 +28,19 @@ public class TongueRenderer : MonoBehaviour
     public IEnumerator TongueExtendVis(Vector3 target)
     {
         Debug.Log("Tongue Coroutine Started");
-        renderer.positionCount = 2;
+        tongueSprite.enabled = true;
         Vector3 tongueTip = playerTransform.position;
-
+        Transform spriteTrans = tongueSprite.transform;
 
         while(Vector3.Distance(tongueTip,target) > 0.1f) //while the distance between the tip and the target is greater than 0.1
         {
             tongueTip = Vector3.MoveTowards(tongueTip, target, visualTongueSpeed * Time.deltaTime); //slowly moves toward target
-            renderer.SetPosition(1, tongueTip); //actively sets position to the Vector3, following an invisible lead in a way
-            renderer.SetPosition(0, playerTransform.position); //Unneccessary but just in case
 
+            UpdateSpriteTransform(tongueTip);
+          
             yield return null;
         }
 
-        renderer.SetPosition(1, target);//snap to target
         isPulling = true;
     }
 
@@ -48,14 +48,36 @@ public class TongueRenderer : MonoBehaviour
     {
         if(isPulling)
         {
-            renderer.SetPosition(0,playerTransform.position); //point 1, dont need to change point 2 as it never changes
+            UpdateSpriteTransform(player.grappleTarget);
         }
     }
+
+    private void UpdateSpriteTransform(Vector3 endPoint) //gemini, i hate math
+    {
+        Transform spriteTrans = tongueSprite.transform;
+
+        // Set base at player
+        spriteTrans.position = playerTransform.position; 
+
+        // Rotate to target
+        Vector2 direction = endPoint - spriteTrans.position;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; 
+        spriteTrans.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+        float currentDist = Vector3.Distance(spriteTrans.position, endPoint);
+        
+        // Find out how wide your sprite image actually is before scaling
+        float nativeSpriteWidth = tongueSprite.sprite.bounds.size.x;
+        
+        // Divide the distance by the sprite's width to get the perfect scale multiplier!
+        spriteTrans.localScale = new Vector3(currentDist / nativeSpriteWidth, 1f, 1f);
+    }
+
 
     public void DisableTongueVis()
     {
         isPulling = false;
-        renderer.positionCount = 0;
+        tongueSprite.enabled = false;
 
         if (tongueExtendCo != null) //kill the coroutine
         {

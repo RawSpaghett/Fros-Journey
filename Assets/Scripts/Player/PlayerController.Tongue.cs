@@ -65,13 +65,14 @@ public partial class PlayerController : MonoBehaviour
                 grappleTarget = hit.point; // Store where we hit
                 
                 Debug.Log("<color=green>GrappleCheckTrue</color>");
-                tongueRenderer.TongueIntiateVis(hit.point);
+                tongueRenderer.TongueIntiateVis(grappleTarget);
                 return true;
             }
 
         }
+        grappleTarget = missTarget;
         Debug.Log("<color=red>GrappleCheckFalse</color>");
-        tongueRenderer.TongueIntiateVis(missTarget);
+        tongueRenderer.TongueIntiateVis(grappleTarget);
         return false;
     }
 
