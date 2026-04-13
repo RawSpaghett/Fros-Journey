@@ -19,7 +19,7 @@ public partial class PlayerController : MonoBehaviour
     public LayerMask grapplemask;
 
     
-    private bool isSticking;
+    public bool isSticking;
     private bool isGrappling;
     public Vector3 grappleTarget;
     private Vector3 mousePosition;

@@ -16,6 +16,7 @@ public partial class PlayerController : MonoBehaviour
     public TongueRenderer tongueRenderer;
 
     [Header("Ground Movement")]
+    public float baseSpeed;
     public float speed;
     public float timeToMax; //acceleration
     public float friction; //friction
@@ -45,6 +46,7 @@ public partial class PlayerController : MonoBehaviour
     //================================================================
     void Awake() //grab neccessary GetComponents automatically
     {
+        speed = baseSpeed;
     }
 
     void Update() //will take inputs using old unity input system, https://docs.unity3d.com/560/Documentation/ScriptReference/KeyCode.html
@@ -58,7 +60,7 @@ public partial class PlayerController : MonoBehaviour
             Gravity(gravityMultiplier);
         }
 
-        if (characterController.isGrounded || isSticking)
+        if (characterController.isGrounded || isSticking || isSwimming)
         {
             Jumping();
             Tongue();
@@ -80,7 +82,7 @@ public partial class PlayerController : MonoBehaviour
         if(!isGrappling && !isSticking) //false
         {
         float x = Input.GetAxisRaw("Horizontal"); //listens for A and D (or arrow keys)
-        if(characterController.isGrounded)
+        if(characterController.isGrounded || isSwimming)
         {
             if(x != 0)
             {
@@ -177,18 +179,5 @@ public partial class PlayerController : MonoBehaviour
         }
     }
     //================================================================
-    //kaitlyn
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Egg"))
-        {
-            Destroy(other.gameObject);
-            em.eggCount++;
-        }
-    }
-
-    //waterCheck water gameobject if true isSwimming
-    //private void isSwimming
-    //if isSwimming gravity -2ish player should freely move x,y
-    //still allow player to jump but at a static rate
+    //moved to .OnTrigger
 }

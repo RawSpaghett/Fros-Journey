@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Grappleable
   - Egg
+  - Water
   layers:
   - Default
   - TransparentFX
