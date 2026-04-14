@@ -11,16 +11,18 @@ public partial class PlayerController: MonoBehaviour
             Swimming();
             Debug.Log("<Color=blue> WATER </color>");
         }
-
-        if (other.gameObject.CompareTag("Egg")) //kaitlyn
-        {
-            Destroy(other.gameObject);
-            em.eggCount++;
-        }
         //waterCheck water gameobject if true isSwimming
         //private void isSwimming
         //if isSwimming gravity -2ish player should freely move x,y
         //still allow player to jump but at a static rate
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+    if (other.gameObject.CompareTag("Egg")) //kaitlyn
+        {
+            Destroy(other.gameObject);
+            em.eggCount++;
+        }
     }
 
      private void OnTriggerExit2D(Collider2D other) //when leaving the water
