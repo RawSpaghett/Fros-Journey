@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections;
 
+//lots of the heavy lifting here is done by gemini, End of the semester has me beat
+
 public class TongueRenderer : MonoBehaviour
 {
     public SpriteRenderer tongueSprite;
@@ -8,6 +10,7 @@ public class TongueRenderer : MonoBehaviour
     public float visualTongueSpeed = 10f;
 
     public bool isPulling = false;
+    public bool isRendering = false;
     private Transform playerTransform;
     private Coroutine tongueExtendCo;
 
@@ -29,6 +32,7 @@ public class TongueRenderer : MonoBehaviour
     {
         Debug.Log("Tongue Coroutine Started");
         tongueSprite.enabled = true;
+        isRendering = true;
         Vector3 tongueTip = playerTransform.position;
         Transform spriteTrans = tongueSprite.transform;
 
@@ -40,8 +44,22 @@ public class TongueRenderer : MonoBehaviour
           
             yield return null;
         }
+        if(player.hitSuccess)
+        {
+            isPulling = true;
+        }
+        else
+        {
+            while(Vector3.Distance(tongueTip, playerTransform.position) > 0.1f)
+            {
+                tongueTip = Vector3.MoveTowards(tongueTip, playerTransform.position, visualTongueSpeed * Time.deltaTime);
+                UpdateSpriteTransform(tongueTip);
+                yield return null;
+            }
+            DisableTongueVis();
+        }
 
-        isPulling = true;
+        
     }
 
     void Update()
@@ -68,15 +86,18 @@ public class TongueRenderer : MonoBehaviour
         
         // Find out how wide your sprite image actually is before scaling
         float nativeSpriteWidth = tongueSprite.sprite.bounds.size.x;
+
+        float parentScaleX = spriteTrans.parent != null ? spriteTrans.parent.lossyScale.x : 1f;
         
         // Divide the distance by the sprite's width to get the perfect scale multiplier!
-        spriteTrans.localScale = new Vector3(currentDist / nativeSpriteWidth, 1f, 1f);
+        spriteTrans.localScale = new Vector3(currentDist / nativeSpriteWidth / parentScaleX, 1f, 1f);
     }
 
 
     public void DisableTongueVis()
     {
         isPulling = false;
+        isRendering = false;
         tongueSprite.enabled = false;
 
         if (tongueExtendCo != null) //kill the coroutine

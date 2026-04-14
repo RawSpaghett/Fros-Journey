@@ -2,7 +2,7 @@ using UnityEngine;
 
 public partial class PlayerController: MonoBehaviour
 {
-     private void OnTriggerEnter(Collider other) //when entering the water
+     private void OnTriggerEnter2D(Collider2D other) //when entering the water
     {
         if (other.CompareTag("Water"))
         {
@@ -23,7 +23,7 @@ public partial class PlayerController: MonoBehaviour
         //still allow player to jump but at a static rate
     }
 
-     private void OnTriggerExit(Collider other) //when leaving the water
+     private void OnTriggerExit2D(Collider2D other) //when leaving the water
     {
         if (other.CompareTag("Water"))
         {
