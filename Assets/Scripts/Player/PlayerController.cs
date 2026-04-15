@@ -79,7 +79,7 @@ public partial class PlayerController : MonoBehaviour
 
     private void Movement()
     {
-        if(!isGrappling && !isSticking) //false
+        if(!isGrappling && !isSticking && !tongueRenderer.isRendering) //false
         {
         float x = Input.GetAxisRaw("Horizontal"); //listens for A and D (or arrow keys)
         if(characterController.isGrounded || isSwimming)
