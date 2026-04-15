@@ -21,6 +21,7 @@ public partial class PlayerController : MonoBehaviour
     
     public bool isSticking;
     private bool isGrappling;
+    public bool hitSuccess;
     public Vector3 grappleTarget;
     private Vector3 mousePosition;
     private Coroutine currentStick;
@@ -66,10 +67,12 @@ public partial class PlayerController : MonoBehaviour
                 
                 Debug.Log("<color=green>GrappleCheckTrue</color>");
                 tongueRenderer.TongueIntiateVis(grappleTarget);
+                hitSuccess = true;
                 return true;
             }
 
         }
+        hitSuccess = false;
         grappleTarget = missTarget;
         Debug.Log("<color=red>GrappleCheckFalse</color>");
         tongueRenderer.TongueIntiateVis(grappleTarget);
