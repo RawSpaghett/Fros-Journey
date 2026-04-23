@@ -111,11 +111,11 @@ public partial class PlayerController : MonoBehaviour
             isStunned = false;
         }
 
-        if((characterController.collisionFlags & CollisionFlags.Above) != 0 && !isSticking && !isGrappling) //head hit check
+        if((characterController.collisionFlags & CollisionFlags.Above) != 0 && !isSticking && !isGrappling && !isStunned) //head hit check
         {
             isStunned = true;
             Debug.Log("<color=blue> Hit Head! <color>");
-            velocity.y = 0;
+            velocity.y = -1;
             velocity.x = 0;
         }
     }

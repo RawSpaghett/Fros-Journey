@@ -17,6 +17,7 @@ public partial class PlayerController : MonoBehaviour
 
     [Header("Raycast settings")]
     public LayerMask grapplemask;
+    public float grappleRadius = 0.5f; //for thickness
 
     
     public bool isSticking;
@@ -61,7 +62,7 @@ public partial class PlayerController : MonoBehaviour
             Vector3 direction = (mouseGamePosition - transform.position).normalized; //location of mouse minus location of player
             missTarget = transform.position + (direction * maxDistance);
 
-            if (Physics.Raycast(transform.position, direction, out RaycastHit hit, maxDistance, grapplemask))//where it starts,where it points,stores where it hits,maximum distance, the grappleable layers
+            if (Physics.SphereCast(transform.position, grappleRadius,direction, out RaycastHit hit, maxDistance, grapplemask))//where it starts,where it points,stores where it hits,maximum distance, the grappleable layers
             {
                 grappleTarget = hit.point; // Store where we hit
                 
@@ -91,7 +92,7 @@ public partial class PlayerController : MonoBehaviour
         KillWallStick();
         Debug.Log("<color=green>GrappleSucceed</color>");
         yield return new WaitUntil(() => tongueRenderer.isPulling); //lamba expression
-        while(Vector3.Distance(transform.position,grappleTarget) > 0.7) //while we are not there, 0.5 for buffer
+        while(Vector3.Distance(transform.position,grappleTarget) > 1.2) //while we are not there, for buffer
         {
             Vector3 direction = (grappleTarget - transform.position).normalized; //normalized keeps it so our speed never changes
             velocity = direction * pullSpeed; //changes velocity to start grapple
@@ -99,6 +100,7 @@ public partial class PlayerController : MonoBehaviour
             if ((characterController.collisionFlags & CollisionFlags.Sides) != 0) break; //checks character controllers default detection variables and stops if its detected
             yield return null;
         }
+        Debug.Log("GrappleSuccedEnd");
         GrappleEnd();
     }
 
