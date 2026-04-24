@@ -14,9 +14,9 @@ TagManager:
   - Grappleable
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Foreground
+  - Background
+  - Player
   - 
   - 
   - 
@@ -43,6 +43,18 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3826752563
+    locked: 0
+  - name: Foreground
+    uniqueID: 1481720393
+    locked: 0
+  - name: Grappleable
+    uniqueID: 1328885157
+    locked: 0
+  - name: Player
+    uniqueID: 1967693381
     locked: 0
   m_RenderingLayers:
   - Default
