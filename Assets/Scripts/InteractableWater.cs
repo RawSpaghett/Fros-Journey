@@ -1,19 +1,18 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+
+#if UNITY_EDITOR
 using UnityEditor;
-using UnityEngine.UIElements;
 using UnityEditor.UIElements;
+using UnityEngine.UIElements; 
+#endif
 
 
 
 [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer), typeof(EdgeCollider2D))]
 public class InteractableWater : MonoBehaviour
 {
-    
-
-    
-    
         [Header("Mesh Generation")]
         [Range(2, 500)] public int NumOfXVertices = 70;
         public float Width = 10f;
@@ -134,12 +133,9 @@ public class InteractableWater : MonoBehaviour
         
 
         }
-        
+}
 
-
-    }
-
-
+#if UNITY_EDITOR
 [CustomEditor(typeof(InteractableWater))]
 public class InteractableWaterEditor : Editor
 {
@@ -172,6 +168,8 @@ public class InteractableWaterEditor : Editor
 
         return root;
     }
+
+
 
     private void ChangeDimensions(ref float width, ref float height, float calculatedWidthMax, float calculatedHeightMax)
     {
@@ -238,6 +236,5 @@ public class InteractableWaterEditor : Editor
             water.GenerateMesh();
         }
     }
-
-
 }
+#endif
