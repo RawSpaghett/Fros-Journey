@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: 0fc76aee995e9794186b2c4c9e19de5c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5305283502961554899
+    second: Fly_Loop_Ani-sprite-sheet_0
+  - first:
+      213: -2621553038065741317
+    second: Fly_Loop_Ani-sprite-sheet_1
+  - first:
+      213: -8215223508325736082
+    second: Fly_Loop_Ani-sprite-sheet_2
+  - first:
+      213: 3181629108036558855
+    second: Fly_Loop_Ani-sprite-sheet_3
+  - first:
+      213: -9075417390534034679
+    second: Fly_Loop_Ani-sprite-sheet_4
+  - first:
+      213: 1297322107948194756
+    second: Fly_Loop_Ani-sprite-sheet_5
+  - first:
+      213: -129062550725759214
+    second: Fly_Loop_Ani-sprite-sheet_6
+  - first:
+      213: -1035490655603454075
+    second: Fly_Loop_Ani-sprite-sheet_7
+  - first:
+      213: -1019841455144762474
+    second: Fly_Loop_Ani-sprite-sheet_8
+  - first:
+      213: -5174698357655258856
+    second: Fly_Loop_Ani-sprite-sheet_9
+  - first:
+      213: -217464197647615703
+    second: Fly_Loop_Ani-sprite-sheet_10
+  - first:
+      213: 4893100642429029485
+    second: Fly_Loop_Ani-sprite-sheet_11
+  - first:
+      213: -2538523151722423844
+    second: Fly_Loop_Ani-sprite-sheet_12
+  - first:
+      213: 2763766231352866525
+    second: Fly_Loop_Ani-sprite-sheet_13
+  - first:
+      213: 1170173472516214285
+    second: Fly_Loop_Ani-sprite-sheet_14
+  - first:
+      213: -5590334943987957859
+    second: Fly_Loop_Ani-sprite-sheet_15
+  - first:
+      213: 464163941448310114
+    second: Fly_Loop_Ani-sprite-sheet_16
+  - first:
+      213: 651803096640137118
+    second: Fly_Loop_Ani-sprite-sheet_17
+  - first:
+      213: 2176140828618214217
+    second: Fly_Loop_Ani-sprite-sheet_18
+  - first:
+      213: 1467242011803194883
+    second: Fly_Loop_Ani-sprite-sheet_19
+  - first:
+      213: 3531766190193735350
+    second: Fly_Loop_Ani-sprite-sheet_20
+  - first:
+      213: -2095505462373010442
+    second: Fly_Loop_Ani-sprite-sheet_21
+  - first:
+      213: 147399629831624181
+    second: Fly_Loop_Ani-sprite-sheet_22
+  - first:
+      213: -813917595630074769
+    second: Fly_Loop_Ani-sprite-sheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9321
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a8c3d33c8df56b0800000000000000
+      internalID: -5305283502961554899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 9321
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1de36c66f5e9bd0800000000000000
+      internalID: -2621553038065741317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 9321
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e616ecbceb9adfd80800000000000000
+      internalID: -8215223508325736082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 9321
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700ef8711da672c20800000000000000
+      internalID: 3181629108036558855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7457
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bf0d887f3ad0280800000000000000
+      internalID: -9075417390534034679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 7457
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb538b6593010210800000000000000
+      internalID: 1297322107948194756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 7457
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f6f2e3b4a753ef0800000000000000
+      internalID: -129062550725759214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 7457
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f05882cb231a1f0800000000000000
+      internalID: -1035490655603454075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5593
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69301e2999bc8d1f0800000000000000
+      internalID: -1019841455144762474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 5593
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819392ca247cf28b0800000000000000
+      internalID: -5174698357655258856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 5593
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92939d3e6796bfcf0800000000000000
+      internalID: -217464197647615703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 5593
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6cc73a0c19c7e340800000000000000
+      internalID: 4893100642429029485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3729
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9da77a4aa55ccd0800000000000000
+      internalID: -2538523151722423844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 3729
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6f10e8ebeda5620800000000000000
+      internalID: 2763766231352866525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 3729
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e0aeac29a4d3010800000000000000
+      internalID: 1170173472516214285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 3729
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ff420ccf32b62b0800000000000000
+      internalID: -5590334943987957859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1865
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d529f35aa017600800000000000000
+      internalID: 464163941448310114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1865
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e972cb6867bab0900800000000000000
+      internalID: 651803096640137118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 1865
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b430fcd84333e10800000000000000
+      internalID: 2176140828618214217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 1865
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3061f0106d0bc5410800000000000000
+      internalID: 1467242011803194883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b67b3c43aa530130800000000000000
+      internalID: 3531766190193735350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3bd5a62e44be2e0800000000000000
+      internalID: -2095505462373010442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 1
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f55320be2bab0200800000000000000
+      internalID: 147399629831624181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly_Loop_Ani-sprite-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 1
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f648704524264b4f0800000000000000
+      internalID: -813917595630074769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c2d77dbabb2d93d4c8927a9b57ea3d11
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":6.0},"gridSpriteSize":{"x":1225.0,"y":1864.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Fly_Loop_Ani-sprite-sheet_0: -5305283502961554899
+      Fly_Loop_Ani-sprite-sheet_1: -2621553038065741317
+      Fly_Loop_Ani-sprite-sheet_10: -217464197647615703
+      Fly_Loop_Ani-sprite-sheet_11: 4893100642429029485
+      Fly_Loop_Ani-sprite-sheet_12: -2538523151722423844
+      Fly_Loop_Ani-sprite-sheet_13: 2763766231352866525
+      Fly_Loop_Ani-sprite-sheet_14: 1170173472516214285
+      Fly_Loop_Ani-sprite-sheet_15: -5590334943987957859
+      Fly_Loop_Ani-sprite-sheet_16: 464163941448310114
+      Fly_Loop_Ani-sprite-sheet_17: 651803096640137118
+      Fly_Loop_Ani-sprite-sheet_18: 2176140828618214217
+      Fly_Loop_Ani-sprite-sheet_19: 1467242011803194883
+      Fly_Loop_Ani-sprite-sheet_2: -8215223508325736082
+      Fly_Loop_Ani-sprite-sheet_20: 3531766190193735350
+      Fly_Loop_Ani-sprite-sheet_21: -2095505462373010442
+      Fly_Loop_Ani-sprite-sheet_22: 147399629831624181
+      Fly_Loop_Ani-sprite-sheet_23: -813917595630074769
+      Fly_Loop_Ani-sprite-sheet_3: 3181629108036558855
+      Fly_Loop_Ani-sprite-sheet_4: -9075417390534034679
+      Fly_Loop_Ani-sprite-sheet_5: 1297322107948194756
+      Fly_Loop_Ani-sprite-sheet_6: -129062550725759214
+      Fly_Loop_Ani-sprite-sheet_7: -1035490655603454075
+      Fly_Loop_Ani-sprite-sheet_8: -1019841455144762474
+      Fly_Loop_Ani-sprite-sheet_9: -5174698357655258856
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

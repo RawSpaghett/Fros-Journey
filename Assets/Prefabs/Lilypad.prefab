@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3240904130102192926}
   - component: {fileID: 6578238390249371414}
   - component: {fileID: 9126902473292078881}
+  - component: {fileID: 6436914889056964692}
   m_Layer: 0
   m_Name: Lilypad
   m_TagString: Untagged
@@ -114,6 +115,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9901679, y: 0.64, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!111 &6436914889056964692
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921938985651392920}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
 --- !u!1 &7185483833114812958
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,458 @@
+fileFormatVersion: 2
+guid: 18a7a035f49028d47a4ecf63292c2452
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -155342562835246202
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_0
+  - first:
+      213: -9088415475572508370
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_1
+  - first:
+      213: 3221035690073979428
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_2
+  - first:
+      213: 7992418396628589401
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_3
+  - first:
+      213: 8179948982164439042
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_4
+  - first:
+      213: 3692711635501060929
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_5
+  - first:
+      213: 4859530682663839955
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_6
+  - first:
+      213: -3803590706440517816
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_7
+  - first:
+      213: 151078547919445676
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_8
+  - first:
+      213: -8951167369905072625
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_9
+  - first:
+      213: -5533555030862761750
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_10
+  - first:
+      213: -5964693876935440188
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_11
+  - first:
+      213: -5904867946813656815
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_12
+  - first:
+      213: 1389903221475546221
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_13
+  - first:
+      213: -572486126128283614
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_14
+  - first:
+      213: 8276607584546304593
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_15
+  - first:
+      213: -4420411633023704724
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_16
+  - first:
+      213: 684903371356142778
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_17
+  - first:
+      213: -4534438006305404209
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_18
+  - first:
+      213: 1024323111996800158
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_19
+  - first:
+      213: 8281081967978744365
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_20
+  - first:
+      213: 2757702927861402248
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_21
+  - first:
+      213: 6335182254180333788
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_22
+  - first:
+      213: 7422551797885592215
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_23
+  - first:
+      213: 5981394495140027999
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_24
+  - first:
+      213: -10634830810366933
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_25
+  - first:
+      213: 6333304029830325301
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_26
+  - first:
+      213: 4824950966092471667
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_27
+  - first:
+      213: -4830616345539329435
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_28
+  - first:
+      213: -375030061499736371
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_29
+  - first:
+      213: 509847065116061488
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_30
+  - first:
+      213: -3361699281655617878
+    second: Bubble_Rise_VFX_Ani-sprite-sheet_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bubble_Rise_VFX_Ani-sprite-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5593
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683d4bb13cc18ddf0800000000000000
+      internalID: -155342562835246202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Rise_VFX_Ani-sprite-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 5593
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29765707467fd180800000000000000
+      internalID: -9088415475572508370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Rise_VFX_Ani-sprite-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 5593
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42af6b3f4ea63bc20800000000000000
+      internalID: 3221035690073979428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Rise_VFX_Ani-sprite-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3729
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b1853af26caee60800000000000000
+      internalID: 7992418396628589401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Rise_VFX_Ani-sprite-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 3729
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200cab29244058170800000000000000
+      internalID: 8179948982164439042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Rise_VFX_Ani-sprite-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 3729
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1431efbeaa52f3330800000000000000
+      internalID: 3692711635501060929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Rise_VFX_Ani-sprite-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1865
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d82a43b865807340800000000000000
+      internalID: 4859530682663839955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Rise_VFX_Ani-sprite-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1865
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847c2af976ee63bc0800000000000000
+      internalID: -3803590706440517816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Rise_VFX_Ani-sprite-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 1865
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae9bed832db81200800000000000000
+      internalID: 151078547919445676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble_Rise_VFX_Ani-sprite-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 1225
+        height: 1864
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f069dbfc3b017c380800000000000000
+      internalID: -8951167369905072625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a5362a80851c5ba498af40d0c3bcef45
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":4.0},"gridSpriteSize":{"x":1225.0,"y":1864.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Bubble_Rise_VFX_Ani-sprite-sheet_0: -155342562835246202
+      Bubble_Rise_VFX_Ani-sprite-sheet_1: -9088415475572508370
+      Bubble_Rise_VFX_Ani-sprite-sheet_2: 3221035690073979428
+      Bubble_Rise_VFX_Ani-sprite-sheet_3: 7992418396628589401
+      Bubble_Rise_VFX_Ani-sprite-sheet_4: 8179948982164439042
+      Bubble_Rise_VFX_Ani-sprite-sheet_5: 3692711635501060929
+      Bubble_Rise_VFX_Ani-sprite-sheet_6: 4859530682663839955
+      Bubble_Rise_VFX_Ani-sprite-sheet_7: -3803590706440517816
+      Bubble_Rise_VFX_Ani-sprite-sheet_8: 151078547919445676
+      Bubble_Rise_VFX_Ani-sprite-sheet_9: -8951167369905072625
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
