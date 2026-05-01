@@ -15,7 +15,7 @@ public partial class PlayerController: MonoBehaviour
         if (other.CompareTag("Egg")) //kaitlyn
         {
             Destroy(other.gameObject);
-            em.eggCount++;
+            em.AddEgg();
         }
         //waterCheck water gameobject if true isSwimming
         //private void isSwimming
