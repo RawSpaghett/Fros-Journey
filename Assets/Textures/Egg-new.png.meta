@@ -1,0 +1,496 @@
+fileFormatVersion: 2
+guid: b626d7fa7933b2f4093c96a83f0e4839
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5849455062095683674
+    second: Egg_New-sprite-sheet_0
+  - first:
+      213: 6024203143640235153
+    second: Egg_New-sprite-sheet_1
+  - first:
+      213: 5684398691041274950
+    second: Egg_New-sprite-sheet_2
+  - first:
+      213: -8024370190384066356
+    second: Egg_New-sprite-sheet_3
+  - first:
+      213: 5677531616590768015
+    second: Egg_New-sprite-sheet_4
+  - first:
+      213: 3355886904319676243
+    second: Egg_New-sprite-sheet_5
+  - first:
+      213: 3538385089484952530
+    second: Egg_New-sprite-sheet_6
+  - first:
+      213: 3708714356948508401
+    second: Egg_New-sprite-sheet_7
+  - first:
+      213: -7812462003744650902
+    second: Egg_New-sprite-sheet_8
+  - first:
+      213: -5208672442476678650
+    second: Egg_New-sprite-sheet_9
+  - first:
+      213: -6980244091223285060
+    second: Egg_New-sprite-sheet_10
+  - first:
+      213: -1198967890007986541
+    second: Egg_New-sprite-sheet_11
+  - first:
+      213: -3531392222765742454
+    second: Egg_New-sprite-sheet_12
+  - first:
+      213: -1758451434228650835
+    second: Egg_New-sprite-sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Egg-new_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7654
+        width: 3301
+        height: 2551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12465b1ac3baeb4fb65d4413d61352d
+      internalID: 2140456276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg-new_1
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 7654
+        width: 3301
+        height: 2551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbd6c6dee6d71446a08afd57479c47d
+      internalID: -2110076793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg-new_2
+      rect:
+        serializedVersion: 2
+        x: 6602
+        y: 7654
+        width: 3301
+        height: 2551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f1dda2a9a6f4c4f960e872f9993fa1
+      internalID: 1744446532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg-new_3
+      rect:
+        serializedVersion: 2
+        x: 9903
+        y: 7654
+        width: 3301
+        height: 2551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0778715ea893604d816df0eb0ed4b55
+      internalID: 1629940437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg-new_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5103
+        width: 3301
+        height: 2551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1504bf702d0305f4fac9134e4e6b8cc5
+      internalID: 266650072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg-new_5
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 5103
+        width: 3301
+        height: 2551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7677431a5e47314ca411b6a933ef672
+      internalID: -329069395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg-new_6
+      rect:
+        serializedVersion: 2
+        x: 6602
+        y: 5103
+        width: 3301
+        height: 2551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91be0c87d1e9b04188edeeccc5f254b
+      internalID: 1360962956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg-new_7
+      rect:
+        serializedVersion: 2
+        x: 9903
+        y: 5103
+        width: 3301
+        height: 2551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e383a241ddb2695498e21d490196573a
+      internalID: 1801694510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg-new_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2552
+        width: 3301
+        height: 2551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cc0f8e768efb74d99157f232b4af95
+      internalID: 1962480341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg-new_9
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 2552
+        width: 3301
+        height: 2551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6172a83af486f3448ce0dbb8ac4895c
+      internalID: -739240391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg-new_10
+      rect:
+        serializedVersion: 2
+        x: 6602
+        y: 2552
+        width: 3301
+        height: 2551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac1a398a14cb5e459fa187b0421f83a
+      internalID: -975573090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg-new_11
+      rect:
+        serializedVersion: 2
+        x: 9903
+        y: 2552
+        width: 3301
+        height: 2551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d06c5715f326b4ba12d27bfdf818f5
+      internalID: -1620729166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg-new_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 3301
+        height: 2551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51b610ecbe262a478c9b94b763c0a68
+      internalID: -1339098073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg-new_13
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 1
+        width: 3301
+        height: 2551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3614f2225d8d0246a279b51597d742b
+      internalID: 1276982336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f45221c1064fe204496949fce450f200
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":3301.0,"y":2551.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Egg-new_0: 2140456276
+      Egg-new_1: -2110076793
+      Egg-new_10: -975573090
+      Egg-new_11: -1620729166
+      Egg-new_12: -1339098073
+      Egg-new_13: 1276982336
+      Egg-new_2: 1744446532
+      Egg-new_3: 1629940437
+      Egg-new_4: 266650072
+      Egg-new_5: -329069395
+      Egg-new_6: 1360962956
+      Egg-new_7: 1801694510
+      Egg-new_8: 1962480341
+      Egg-new_9: -739240391
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
