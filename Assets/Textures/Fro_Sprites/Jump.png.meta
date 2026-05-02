@@ -1,0 +1,794 @@
+fileFormatVersion: 2
+guid: 2af80497432654e44b23b9c18cf5dfc3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8941681595381530684
+    second: jump-export-sprite-sheet_0
+  - first:
+      213: -7828691153683168867
+    second: jump-export-sprite-sheet_1
+  - first:
+      213: 93517198722413935
+    second: jump-export-sprite-sheet_2
+  - first:
+      213: -4497558858237769032
+    second: jump-export-sprite-sheet_3
+  - first:
+      213: -1909611467734021578
+    second: jump-export-sprite-sheet_4
+  - first:
+      213: 6804888528160987717
+    second: jump-export-sprite-sheet_5
+  - first:
+      213: -3407783234857849114
+    second: jump-export-sprite-sheet_6
+  - first:
+      213: -5511536738971492350
+    second: jump-export-sprite-sheet_7
+  - first:
+      213: -7498568979680680702
+    second: jump-export-sprite-sheet_8
+  - first:
+      213: 2930889295378845969
+    second: jump-export-sprite-sheet_9
+  - first:
+      213: -2983534342350486817
+    second: jump-export-sprite-sheet_10
+  - first:
+      213: 5304004792623015957
+    second: jump-export-sprite-sheet_11
+  - first:
+      213: 7024527308704278376
+    second: jump-export-sprite-sheet_12
+  - first:
+      213: 1788531640483976613
+    second: jump-export-sprite-sheet_13
+  - first:
+      213: -5284912828453091950
+    second: jump-export-sprite-sheet_14
+  - first:
+      213: 1636456266558098638
+    second: jump-export-sprite-sheet_15
+  - first:
+      213: -3751513991385793945
+    second: jump-export-sprite-sheet_16
+  - first:
+      213: 4910107402066700307
+    second: jump-export-sprite-sheet_17
+  - first:
+      213: -541724760877431047
+    second: jump-export-sprite-sheet_18
+  - first:
+      213: -2281556064535940746
+    second: jump-export-sprite-sheet_19
+  - first:
+      213: -5829761462705438800
+    second: jump-export-sprite-sheet_20
+  - first:
+      213: 609654633608093635
+    second: jump-export-sprite-sheet_21
+  - first:
+      213: 8404814028172167364
+    second: jump-export-sprite-sheet_22
+  - first:
+      213: 2053687371437842025
+    second: jump-export-sprite-sheet_23
+  - first:
+      213: 3326183051363959758
+    second: jump-export-sprite-sheet_24
+  - first:
+      213: -3392272374601503416
+    second: jump-export-sprite-sheet_25
+  - first:
+      213: 2240879921793909474
+    second: jump-export-sprite-sheet_26
+  - first:
+      213: -3611510234067590397
+    second: jump-export-sprite-sheet_27
+  - first:
+      213: -7602534253859236576
+    second: jump-export-sprite-sheet_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3823
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfb2acc6f3c8e380800000000000000
+      internalID: -8941681595381530684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 3823
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91c878bfd6ea5390800000000000000
+      internalID: -7828691153683168867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 3823
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f653d32956d3c4100800000000000000
+      internalID: 93517198722413935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 3823
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba835a2c067591c0800000000000000
+      internalID: -4497558858237769032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3186
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a83b6dc72bf75e0800000000000000
+      internalID: -1909611467734021578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 3186
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a9a210012df6e50800000000000000
+      internalID: 6804888528160987717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 3186
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee24cef33f15b0d0800000000000000
+      internalID: -3407783234857849114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 3186
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200e61b89861383b0800000000000000
+      internalID: -5511536738971492350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2549
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205ae5afd3bbfe790800000000000000
+      internalID: -7498568979680680702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 2549
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1111d0f194c9ca820800000000000000
+      internalID: 2930889295378845969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 2549
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd24505b25b5896d0800000000000000
+      internalID: -2983534342350486817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 2549
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518a34fc14c9b9940800000000000000
+      internalID: 5304004792623015957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1912
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8676956ae522c7160800000000000000
+      internalID: 7024527308704278376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1912
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5189c0d0422d810800000000000000
+      internalID: 1788531640483976613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1912
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295062f78c738a6b0800000000000000
+      internalID: -5284912828453091950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 1912
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc48aadd4cd5b610800000000000000
+      internalID: 1636456266558098638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1275
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76aba85b6e1ffebc0800000000000000
+      internalID: -3751513991385793945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1275
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318a335daa4342440800000000000000
+      internalID: 4910107402066700307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1275
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f60edd33386b78f0800000000000000
+      internalID: -541724760877431047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 1275
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6717236f8d84650e0800000000000000
+      internalID: -2281556064535940746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf3e2a46d6881fa0800000000000000
+      internalID: -5829761462705438800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 638
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf91efb8ade57800800000000000000
+      internalID: 609654633608093635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 638
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c80c68f3d5e3a470800000000000000
+      internalID: 8404814028172167364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 638
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e124e88c9208c10800000000000000
+      internalID: 2053687371437842025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump-export-sprite-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 822
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec34972ccd9f82e20800000000000000
+      internalID: 3326183051363959758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 379c9b4a78319854e8431ce5046aaa25
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":7.0},"gridSpriteSize":{"x":822.0,"y":637.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      jump-export-sprite-sheet_0: -8941681595381530684
+      jump-export-sprite-sheet_1: -7828691153683168867
+      jump-export-sprite-sheet_10: -2983534342350486817
+      jump-export-sprite-sheet_11: 5304004792623015957
+      jump-export-sprite-sheet_12: 7024527308704278376
+      jump-export-sprite-sheet_13: 1788531640483976613
+      jump-export-sprite-sheet_14: -5284912828453091950
+      jump-export-sprite-sheet_15: 1636456266558098638
+      jump-export-sprite-sheet_16: -3751513991385793945
+      jump-export-sprite-sheet_17: 4910107402066700307
+      jump-export-sprite-sheet_18: -541724760877431047
+      jump-export-sprite-sheet_19: -2281556064535940746
+      jump-export-sprite-sheet_2: 93517198722413935
+      jump-export-sprite-sheet_20: -5829761462705438800
+      jump-export-sprite-sheet_21: 609654633608093635
+      jump-export-sprite-sheet_22: 8404814028172167364
+      jump-export-sprite-sheet_23: 2053687371437842025
+      jump-export-sprite-sheet_24: 3326183051363959758
+      jump-export-sprite-sheet_3: -4497558858237769032
+      jump-export-sprite-sheet_4: -1909611467734021578
+      jump-export-sprite-sheet_5: 6804888528160987717
+      jump-export-sprite-sheet_6: -3407783234857849114
+      jump-export-sprite-sheet_7: -5511536738971492350
+      jump-export-sprite-sheet_8: -7498568979680680702
+      jump-export-sprite-sheet_9: 2930889295378845969
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

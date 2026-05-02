@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 8da34b0a442b6c6418bcb4c9865a73bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3170157000386959570
+    second: turn-export-sprite-sheet_0
+  - first:
+      213: 5003903593983797234
+    second: turn-export-sprite-sheet_1
+  - first:
+      213: -2267667752868062219
+    second: turn-export-sprite-sheet_2
+  - first:
+      213: 7795048619705093774
+    second: turn-export-sprite-sheet_3
+  - first:
+      213: 758069233450387117
+    second: turn-export-sprite-sheet_4
+  - first:
+      213: -8446821106720937360
+    second: turn-export-sprite-sheet_5
+  - first:
+      213: 7925857789811886730
+    second: turn-export-sprite-sheet_6
+  - first:
+      213: 6552674791857873239
+    second: turn-export-sprite-sheet_7
+  - first:
+      213: 1315846875929720729
+    second: turn-export-sprite-sheet_8
+  - first:
+      213: 2412642787275843948
+    second: turn-export-sprite-sheet_9
+  - first:
+      213: 1196153931378339319
+    second: turn-export-sprite-sheet_10
+  - first:
+      213: 2876953639580871150
+    second: turn-export-sprite-sheet_11
+  - first:
+      213: 7597054998390309941
+    second: turn-export-sprite-sheet_12
+  - first:
+      213: -2410810413587483747
+    second: turn-export-sprite-sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: turn-export-sprite-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 867
+        width: 441
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d85842eef8aefb20800000000000000
+      internalID: 3170157000386959570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turn-export-sprite-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 867
+        width: 441
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f764b19ecf617540800000000000000
+      internalID: 5003903593983797234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turn-export-sprite-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 867
+        width: 441
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbd0b18130a780e0800000000000000
+      internalID: -2267667752868062219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turn-export-sprite-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 867
+        width: 441
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ecb607b639d2c60800000000000000
+      internalID: 7795048619705093774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turn-export-sprite-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 434
+        width: 441
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da686fe83f3358a00800000000000000
+      internalID: 758069233450387117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turn-export-sprite-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 434
+        width: 441
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a60a4e4fcd6ca80800000000000000
+      internalID: -8446821106720937360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turn-export-sprite-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 434
+        width: 441
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a0006baad4efd60800000000000000
+      internalID: 7925857789811886730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turn-export-sprite-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 434
+        width: 441
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75168517107cfea50800000000000000
+      internalID: 6552674791857873239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turn-export-sprite-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 441
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997399213c3d24210800000000000000
+      internalID: 1315846875929720729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turn-export-sprite-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1
+        width: 441
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c692c7115dd6b7120800000000000000
+      internalID: 2412642787275843948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7396905e3a89dc7409c9fee69ffd3a9e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":441.0,"y":433.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      turn-export-sprite-sheet_0: 3170157000386959570
+      turn-export-sprite-sheet_1: 5003903593983797234
+      turn-export-sprite-sheet_2: -2267667752868062219
+      turn-export-sprite-sheet_3: 7795048619705093774
+      turn-export-sprite-sheet_4: 758069233450387117
+      turn-export-sprite-sheet_5: -8446821106720937360
+      turn-export-sprite-sheet_6: 7925857789811886730
+      turn-export-sprite-sheet_7: 6552674791857873239
+      turn-export-sprite-sheet_8: 1315846875929720729
+      turn-export-sprite-sheet_9: 2412642787275843948
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

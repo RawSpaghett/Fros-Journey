@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: d7b4216acf13bb84db95d32a5c56255c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1804883963792829045
+    second: swim-export-sprite-sheet_0
+  - first:
+      213: 8486901017603440629
+    second: swim-export-sprite-sheet_1
+  - first:
+      213: 2560298796962285349
+    second: swim-export-sprite-sheet_2
+  - first:
+      213: 8855476928119534843
+    second: swim-export-sprite-sheet_3
+  - first:
+      213: -8364549384799534643
+    second: swim-export-sprite-sheet_4
+  - first:
+      213: 7552141544318316513
+    second: swim-export-sprite-sheet_5
+  - first:
+      213: -683028194198630187
+    second: swim-export-sprite-sheet_6
+  - first:
+      213: -5265379276664642167
+    second: swim-export-sprite-sheet_7
+  - first:
+      213: -430931791176205394
+    second: swim-export-sprite-sheet_8
+  - first:
+      213: 6499070336941634655
+    second: swim-export-sprite-sheet_9
+  - first:
+      213: -4479866632916778981
+    second: swim-export-sprite-sheet_10
+  - first:
+      213: 573041708178453572
+    second: swim-export-sprite-sheet_11
+  - first:
+      213: 6705468823633305632
+    second: swim-export-sprite-sheet_12
+  - first:
+      213: 9099383071292949498
+    second: swim-export-sprite-sheet_13
+  - first:
+      213: 5603134484566778814
+    second: swim-export-sprite-sheet_14
+  - first:
+      213: 8187877202291049825
+    second: swim-export-sprite-sheet_15
+  - first:
+      213: -1262780517182714823
+    second: swim-export-sprite-sheet_16
+  - first:
+      213: -27951783567290033
+    second: swim-export-sprite-sheet_17
+  - first:
+      213: 3630477188844177705
+    second: swim-export-sprite-sheet_18
+  - first:
+      213: -8543780556104928250
+    second: swim-export-sprite-sheet_19
+  - first:
+      213: 7293704009337283564
+    second: swim-export-sprite-sheet_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2166
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85545df893c3f6e0800000000000000
+      internalID: -1804883963792829045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 2166
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff772e828787c570800000000000000
+      internalID: 8486901017603440629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 2166
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5270cc7d032088320800000000000000
+      internalID: 2560298796962285349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 2166
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf47b390959f4ea70800000000000000
+      internalID: 8855476928119534843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1733
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1cfccd6a62beb80800000000000000
+      internalID: -8364549384799534643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1733
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef209ab8b89ec860800000000000000
+      internalID: 7552141544318316513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1733
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0d639e9756586f0800000000000000
+      internalID: -683028194198630187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 1733
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98563bee17d9de6b0800000000000000
+      internalID: -5265379276664642167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabf480b1d5050af0800000000000000
+      internalID: -430931791176205394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1300
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f543fa3b906513a50800000000000000
+      internalID: 6499070336941634655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1300
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10cedf580154d1c0800000000000000
+      internalID: -4479866632916778981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 1300
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444b571c56ad3f700800000000000000
+      internalID: 573041708178453572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 867
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020ae153e5c9e0d50800000000000000
+      internalID: 6705468823633305632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 867
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af38e9751b0874e70800000000000000
+      internalID: 9099383071292949498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 867
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb32855802552cd40800000000000000
+      internalID: 5603134484566778814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 867
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165c31b2fee21a170800000000000000
+      internalID: 8187877202291049825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 434
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c4a046fc3b97ee0800000000000000
+      internalID: -1262780517182714823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 434
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4112ad3002bc9ff0800000000000000
+      internalID: -27951783567290033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 434
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9294736a4cb026230800000000000000
+      internalID: 3630477188844177705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 434
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604f972e9d46e6980800000000000000
+      internalID: -8543780556104928250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swim-export-sprite-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 773
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3246d1721783560800000000000000
+      internalID: 7293704009337283564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4ff4df5953ba15342943f4387b12bf39
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":6.0},"gridSpriteSize":{"x":773.0,"y":433.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      swim-export-sprite-sheet_0: -1804883963792829045
+      swim-export-sprite-sheet_1: 8486901017603440629
+      swim-export-sprite-sheet_10: -4479866632916778981
+      swim-export-sprite-sheet_11: 573041708178453572
+      swim-export-sprite-sheet_12: 6705468823633305632
+      swim-export-sprite-sheet_13: 9099383071292949498
+      swim-export-sprite-sheet_14: 5603134484566778814
+      swim-export-sprite-sheet_15: 8187877202291049825
+      swim-export-sprite-sheet_16: -1262780517182714823
+      swim-export-sprite-sheet_17: -27951783567290033
+      swim-export-sprite-sheet_18: 3630477188844177705
+      swim-export-sprite-sheet_19: -8543780556104928250
+      swim-export-sprite-sheet_2: 2560298796962285349
+      swim-export-sprite-sheet_20: 7293704009337283564
+      swim-export-sprite-sheet_3: 8855476928119534843
+      swim-export-sprite-sheet_4: -8364549384799534643
+      swim-export-sprite-sheet_5: 7552141544318316513
+      swim-export-sprite-sheet_6: -683028194198630187
+      swim-export-sprite-sheet_7: -5265379276664642167
+      swim-export-sprite-sheet_8: -430931791176205394
+      swim-export-sprite-sheet_9: 6499070336941634655
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
