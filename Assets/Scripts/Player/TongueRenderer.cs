@@ -82,7 +82,7 @@ public class TongueRenderer : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; 
         spriteTrans.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
-        float currentDist = Vector3.Distance(spriteTrans.position, endPoint);
+        float currentDist = Vector2.Distance(spriteTrans.position, endPoint);
         
         // Find out how wide your sprite image actually is before scaling
         float nativeSpriteWidth = tongueSprite.sprite.bounds.size.x;
