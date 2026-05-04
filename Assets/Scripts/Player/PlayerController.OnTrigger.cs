@@ -2,34 +2,38 @@ using UnityEngine;
 
 public partial class PlayerController: MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other) //when entering the water
+    
+    private int waterContacts = 0;
+    
+
+    private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Water"))
         {
-            Debug.Log("<Color=yellow> swimmytag </Color>");
+            waterContacts++;
             isSwimming = true;
             Swimming();
-            Debug.Log("<Color=blue> WATER </color>");
         }
 
-        if (other.CompareTag("Egg")) //kaitlyn
+        if (other.CompareTag("Egg"))
         {
             Destroy(other.gameObject);
             em.AddEgg();
         }
-        //waterCheck water gameobject if true isSwimming
-        //private void isSwimming
-        //if isSwimming gravity -2ish player should freely move x,y
-        //still allow player to jump but at a static rate
     }
 
-    private void OnTriggerExit(Collider other) //when leaving the water
+    private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Water"))
         {
-            isSwimming = false;
-            Swimming();
-            Debug.Log("<color=blue>LEAVING WATER</color>");
+            waterContacts--;
+
+            if (waterContacts <= 0)
+            {
+                waterContacts = 0;
+                isSwimming = false;
+                Swimming();
+            }
         }
     }
 }

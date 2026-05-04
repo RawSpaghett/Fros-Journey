@@ -14,6 +14,9 @@ public partial class PlayerController : MonoBehaviour
 
     [Header("References")]
     public TongueRenderer tongueRenderer;
+    public Animator anim;
+
+    public Transform spawnPoint;
 
     [Header("Ground Movement")]
     public float baseSpeed;
@@ -35,6 +38,7 @@ public partial class PlayerController : MonoBehaviour
     private float currentCharge;
     private float currentGravity;
     private bool isStunned = false;
+    private bool facingRight = true;
 
     [Header("Current Velocity (For Debug)")]
     [SerializeField] 
@@ -73,6 +77,12 @@ public partial class PlayerController : MonoBehaviour
         characterController.Move(velocity * Time.deltaTime);
 
 
+        anim.SetBool("isGrounded", characterController.isGrounded);
+        anim.SetFloat("Speed", Mathf.Abs(velocity.x));
+        anim.SetFloat("yVelocity", velocity.y);
+        anim.SetBool("isSwimming", isSwimming);
+
+
     }
 
     //================================================================
@@ -82,7 +92,17 @@ public partial class PlayerController : MonoBehaviour
         if(!isGrappling && !isSticking && !tongueRenderer.isRendering) //false
         {
         float x = Input.GetAxisRaw("Horizontal"); //listens for A and D (or arrow keys)
-        if(characterController.isGrounded || isSwimming)
+
+            if (x > 0 && !facingRight)
+            {
+                Flip();
+            }
+            else if (x < 0 && facingRight)
+            {
+                Flip();
+            }
+
+            if (characterController.isGrounded || isSwimming)
         {
             if(x != 0)
             {
@@ -99,6 +119,9 @@ public partial class PlayerController : MonoBehaviour
         }
         velocity.z = 0f;
         }
+
+        
+
     }
 
     //================================================================
@@ -136,6 +159,7 @@ public partial class PlayerController : MonoBehaviour
         {
             KillWallStick();
             velocity.y = jumpMultiplier;
+            anim.SetTrigger("Jump");
         }
         else
         {
@@ -143,6 +167,15 @@ public partial class PlayerController : MonoBehaviour
         currentCharge = 0f;
         jumpMultiplier = minJumpStrength;
         }
+    }
+
+    private void Flip()
+    {
+        facingRight = !facingRight;
+
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
     }
 
     //================================================================
@@ -180,4 +213,17 @@ public partial class PlayerController : MonoBehaviour
     }
     //================================================================
     //moved to .OnTrigger
+
+    
+
+
+    public void Respawn()
+    {
+        characterController.enabled = false;
+
+        transform.position = spawnPoint.position;
+        velocity = Vector3.zero;
+
+        characterController.enabled = true;
+    }
 }
